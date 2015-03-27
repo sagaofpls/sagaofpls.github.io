@@ -1,0 +1,49 @@
+# Herman's Personality
+
+
+
+## Least Squares Mania
+
+Herman Wold was passionated about Least Squares. Reviwing his research trajectory divided in four main periods (time-series 1932-1938; economic analysis of consumer demand, 1938-1952; econometrics and path models with directly observed variables, 1945-1970; and systems analysis and path models with indirectly observed variables, 1966-onwards) "Throughout these 50 years, my contributions have been based on the least squares (LS) principle."
+
+The attention that Maximum Likelihood attracted, and its mainstream place on the statistical literature, were something that Wold would never felt comfortable with. Even 40 years later or so, at the end of Wold's academic life, in his last publications he often wrote lines reflecting his mixed feelings respecting but rejecting at the same time the method of Maximum Likelihood. In the openning paragraph of "Systems Analysis By Partial Least Squares" (1985), Wold writes :
+
+> ML methods constitute the mainstream of contemporary statistics and econometrics since the 1940's. LS methods have been left in the backwater as 'inefficient.'
+
+Here's another example from _Systems Analysis by Partial Least Squares_, [@Wold1985], page 221: "Most, or all, of my research has been based on the LS principle, from my Doctoral thesis (1938) onwards"
+
+Published in _Econometric Theory_ (1994, p 426) David Henry and Mary Morgan interviewed Herman Wold:
+
+> _(ET)_ Would it be fair to see the least-squares principle as the consistent link through your research contributions in statistics, econometrics, and time series? 
+> _(HW)_ Yes, I think it is. I agree with that very much. 
+> _(ET)_ And was this conscious---that you felt least squares was right and you kept applying it as you tackled a problem? 
+> _(HW)_ Yes, yes, yes, ...
+
+
+## Work style
+
+Another undeniable issue has to do with Herman Wold's personality. Petter Whittle, a former PhD student of Herman's puts it clearly: "His tendency to work on his own, using his own methods, was a strength, but also a dissadvantage in that the advances that he was making were less known and recognized than they should have been." [@Whittle1994]
+
+In the same obituary Whittle writes: 
+
+> Herman's very striking trait was his determination and single mindedness. Once he had embarked on an interest or a course of action he would pursue it for a matter of years, ignoring obstacles, which sometimes also meant ignoring susceptibilities. This characteristic made him something of a byword; it was said that whenever two or more Scandinavian statisticians were gathered together then the conversation would inevitably soon turn to the subject of Herman Wold.
+
+
+
+## Causality Affair
+
+There is a dichotomy in Wold's works. Reading his papers and articles, he often tends to split things in dualities: ML and LS; experimental vs nonexprimental data; social sciences vs natural sciences. 
+
+From the first till the last papers, Wold always cared about causality. And about Model building for scientific purposes and theory of knowledge. 
+The underlying question for Wold, not always explicitely stated, is: "What statistical procedure can one use for nonexperimental data for causality purposes?" Or put in other terms: "How to do science with nonexperimental social phenomena?" His answer is that we cannot claim "causality" in the experimental sense, but we can assume a "causal relation" for prediction purposes.
+
+His idealism in causality and regression during the 1950s gives a romantic view: one in which a regression model can play the role of a theoretical causal model. This perception would eventually changed at the end of that decade when he experienced his so-called "intellectual turmoil." 
+
+
+
+
+
+#### Models for Knowledge
+
+In his biographical essay ``Models for Knowledge,'' Wold describes us his framework, first appeared in 1955 _Causality and Econometrics_ and inn _Causal Inference from Observational Data_ (CIFOD), in the latter the diagram is called: the "fourfold map of ends and means in applied statistics." Its visual representation is extremely simple, composed by 4 elements: the letter *E*, the letter *T*, a double-headed arrow, everything surrounded by a rectangle. With such minimalism Wold condense all his deep views and beliefs.
+

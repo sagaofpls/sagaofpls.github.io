@@ -1,0 +1,17 @@
+
+
+# References
+
+[@Tenenhaus1998]
+
+[@Wold1966a]
+
+[@WoldLyttkens1969]
+
+[@Wold1973]
+
+[^1]: A citation without locators [@Wold1966a].
+
+[^2]: Some citations [see @item2 chap. 3; @item3; @item1].
+
+[^3]: Like a citation without author: [-@item1], and now Doe with a locator [-@item2 p. 44].

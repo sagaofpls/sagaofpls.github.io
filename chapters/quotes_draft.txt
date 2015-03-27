@@ -1,0 +1,34 @@
+
+Wold (1980) [@Wold1980]
+
+> The PLS approach to path models with latent variables is primarily intended for multidisciplinary and other applications where the problems explored are complex and theoretical knowledge is scarce. 
+
+Three characteristics are involved:
+
+- (a) causal-predictive analysis
+- (b) complexity of the problems explored
+- (c) scarcity of prior theoretical knowledge
+# End of quote
+
+
+Also from [@Wold1980]
+
+> PLS modeling is primarily designed for causal-predictive analysis of problems with high complexity, but low information... Complex problems with low information occur in most or all sciences and the list includes examples ranging from the natural and medical to the social and political sciences.
+
+
+From Wold (1975) _Path Models with Latent Variables: The NIPALS Approach_ [@Wold1975a] (page 352)
+
+> It sometimes happens that the model builder has little or no more prior information at disposal for the model construction than its intended operative use. The NIPALS models are designed with particular view to applications in such low-information situations.
+
+
+From Wold (1975) _Soft Modelling by Latent Variables: The Non-Linear Iterative Partial Least Squares (NIPALS) Approach_ [@Wold1975b]. To the best of my knowledge, this is the first time that Wold publishes a paper mentioning the term "soft modeling", which he will adopt later as a formal term to wrap his model building framework via PLS path models.
+
+> The NIPALS approach is applied to the 'soft' type of model that has come to the fore in sociology and other social sciences in the last five or ten years, namely path models that involve latent variables which serve as proxies for blocks of indirectly observed variables. 
+
+Wold (1977) presents a paper _On the Transition from Pattern Cognition to Model Building_ and he mentions in the abstract this paper "summarizes the theoretical evolution of the NIPALS approach to 'soft' modeling." [@Wold1977]
+
+Wold (1978) _Ways and Means of Multidisciplinary Studies_ [@Wold1978] mentions that 
+
+
+> The paper begins with a broad overview of model building methods, focussing on simple vs. complex situations, and high vs. low degrees of prior knowledge. The main part of the paper describes a general method for what I call "soft modeling," or the PLS (Partial Least Squares) approach to path models with latent variables. The PLS approach is primarily intended for complex problems with low degrees of prior information.
+
