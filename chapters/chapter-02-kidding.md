@@ -2,7 +2,7 @@
 
 The first time I heard about PLS was in October 2004 when I first met professor Tomàs Aluja---my former PhD adviser. I had just recently moved to Barcelona to start my graduate studies in statistics, and I had been designated Tomàs's new mentee. At the end of our first meeting when I was about to leave his office, Tomàs asked me a seemingly intrascendental question: "Have you ever heard about PLS?" 
 
-"P.L.S?" I repeated those letters to myself without pronouncing any words. Fearing to give a bad impression to my brand new mentor, I quickly scanned the hard-disk of my brain in search for any hint. Unsuccessfully struggling to find any answer, I ended up with a perfect clueless expression in my face. 
+"P. L. S.?" I repeated those letters to myself without pronouncing any words. Fearing to give a bad impression to my brand new mentor, I quickly scanned the hard-disk of my brain in search for any hint. Unsuccessfully struggling to find any answer, I ended up with a perfect clueless expression in my face. 
 
 I had no idea what PLS was or what it meant.
 
@@ -27,5 +27,5 @@ One of the very first things I knew I wanted to do was find out more about the h
 
 All I wanted was to be able to answer the _who_, _when_, _how_, and _why_. Who created PLS? When was it developed? How it was the development process? And why? How does something such as PLS methods is developed? What are the circumstances that give birth to that framework? In this sense, the quest becomes a quest not only about the man, but also about his mind, his ideas, and surrounding context. I always tell my students that statistical methods are not created out of the blue. They don't appear spontaneously or miraculously---even though many text books and the way we teach, may give that false impression.
 
-Little by little I started to dig and uncover fragments of the history. But one question was always in the back burner of my head: why did PLS Path Modeling is not that well known? Think about it. By 2005, the first works about PLS had been already present for almost 40 years! Yet, having access to those references was ridiculously difficult and scarce. NIPALS-PCA and PLS regressions seemed to be closely connected, and they tend to appear together in the chemometrics literature. However, PLS Path Modeling wasn't mentioned whatsoever. It was a different beast, seemed to be made from a different material. Why?
+Little by little I started to dig and uncover fragments of the history. But one question was always in the back burner of my head: why was PLS Path Modeling not that well known? Think about it. By 2005, the first works about PLS had been already present for almost 40 years! Yet, having access to those references was ridiculously difficult and scarce. NIPALS-PCA and PLS regressions seemed to be closely connected, and they tend to appear together in the chemometrics literature. However, PLS Path Modeling wasn't mentioned whatsoever. It was a different beast, seemed to be made from a different material. Why?
 

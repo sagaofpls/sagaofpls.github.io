@@ -143,7 +143,8 @@ make_index <- function(chap_list) {
     title_line <- readLines(sprintf("chapters/%s", chap_list[i]), n = 1)
     title_line <- gsub("# ", "", title_line)
     # append chapters
-    chap_title <- capitalize(title_line)
+    ##chap_title <- capitalize(title_line)
+    chap_title <- title_line
     chap_num <- chapter_num_toc(chap_list[i])
     toc_chaps <- sprintf("- Chapter %s: [%s](chapter%s.html)",
                          chap_num,
@@ -169,7 +170,8 @@ make_nav <- function(chap_list) {
     title_line <- readLines(sprintf("chapters/%s", chap_list[i]), n = 1)
     title_line <- gsub("# ", "", title_line)
     # append chapters
-    chap_title <- capitalize(title_line)
+    ##chap_title <- capitalize(title_line)
+    chap_title <- title_line
     chap_title <- gsub(" ", "&nbsp;", chap_title)
     chap_num <- chapter_num_toc(chap_list[i])
     

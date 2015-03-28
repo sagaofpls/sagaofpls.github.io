@@ -25,8 +25,8 @@ At its heart, Partial Least Squares provide a versatile platform for analyzing m
 - their marked geometrical flavor of projection-based methods 
 - their inherent dimension reduction nature
 - the graphical possibilities they open for data visualization
-- deductive spirit
-- statistical learning (predictive modeling)	
+- their strong deductive spirit
+- their fit with statistical learning approaches	
 
 Above everything else, the most captivating trait---in my opinion---is that Partial Least Squares offers us a wide analytical platform that covers a large number of multivariate data analysis techniques. Plus, it gives us the ability  to connect a number of seemingly unrelated methods. Such a platform, encompassing both its computational side, and its flexible analytical spirit, is of a great richness and applicability very few times encountered in other data analysis approaches. 
 
