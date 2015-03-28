@@ -21,7 +21,7 @@ At its heart, Partial Least Squares provide a versatile platform for analyzing m
 - their inherent dimension reduction nature
 - the graphical possibilities they open for data visualization
 - their strong deductive spirit
-- their fit with statistical learning approaches	
+- their fit within statistical learning approaches	
 
 Above everything else, the most captivating trait---in my opinion---is that Partial Least Squares offers us a wide analytical platform that covers a large number of multivariate data analysis techniques. Plus, it gives us the ability  to connect a number of seemingly unrelated methods. Such a platform, encompassing both its computational side, and its flexible analytical spirit, is of a great richness and applicability very few times encountered in other data analysis approaches. 
 
@@ -87,7 +87,7 @@ Another hurdle for studying PLS methods has to do with the fact that PLS methods
 
 #### Current Status.
 
-Today PLS methods are well recognized. Symposiums exclusively dedicated to discuss advancements and state-of-the-art. Especial publications such as the PLS (Esposito et al, 2010), PLS New Advancements (Abdi, 2013). On the computational side a wide range of software programs are available both commercially and free. A dozen R packages, plug-ins for MS Excel, Smart-PLS, Umetrics, Matlab, Python, etc. Also important is the amazing amount of learning resources with tutorials, slides, youtube videos, seminars, webinars, workshops, and specialized courses. All this ecosystem reflects the success of PLS methods in industry, academia, research, and governmental spheres. 
+Today Partial Least Squares methods are well recognized in pretty much all fields of knowledge where they have been applied. There's a tradition of biannual symposiums exclusively dedicated to discuss advancements and state-of-the-art around PLS and related methods. We also have special publications such as the _Handbook of Partial Least Squares_ (Esposito et al, 2010), _New Perspectives in Partial Least Squares and Related Methods_ (Abdi et al, 2013). On the computational side a wide range of software programs are available both commercially and free. The largest group of tools is the dozen of R packages freely available in [CRAN](http://cran.r-project.org/); there are the XLSTAT plug-ins for MS Excel (by Addinsoft); Smart-PLS, Umetrics, and libraries for Matlab, and Python. Also important is the amazing amount of learning resources with tutorials, slides, youtube videos, seminars, webinars, workshops, and specialized courses. All this ecosystem reflects the success of PLS methods in industry, academia, research, and governmental spheres. 
 
 But it hasn't always been like this.
 

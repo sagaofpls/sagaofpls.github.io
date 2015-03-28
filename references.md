@@ -11,6 +11,8 @@ title: "References"
 
 <a name="Espositoetal2010"></a> Esposito et al. (2010) _Handbook of Partial Least Squares_. Edited by V. Esposito-Vinzi, W. W. Chin, J. Henseler and H. Wang. Springer.
 
+<a name="Fornell1982"></a> Fornell, C. (1982) _A Second Generation of Multivariate Analysis_, edited by C. Fornell. Praeger.
+
 <a name="Geladi1988"></a> Geladi, P. (1988) "Notes on the History and Nature of Partial Least Squares (PLS) Modelling." _Journal of Chemometrics_, 2, 231-246.
 
 <a name="Geladi1992"></a> Geladi, P. (1992) "Obituary: Herman Wold, the father of PLS." _Chemometrics and Intelligent Laboratory Systems_, 15, 1, R7-R8.

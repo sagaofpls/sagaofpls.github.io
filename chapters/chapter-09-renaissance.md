@@ -1,8 +1,3 @@
----
-layout: page
-title: "renaissance"
----
-
 # The Renaissance of Herman's PLS
 
 The PLS Regression of scandinavian chemetricians was the perfect match to French _Analyse des Données_: both favoring the same core concepts of projections, inductive style, interpretable tools, and graphical displays. With a long tradition of Multidmensional Analysis Methods, French data analysts have had their preferences for favoring their school and tools with a heavy use of geometry, algebra, and projection methods. Rooted in the seminal work of Jean-Paul Benzecri during the mid-1960s, data analysis _alla Française_ privileged data analysis with a decisive inclination to exploratory and descriptive approaches---similar to the spirit of John Tuckey's _Exploratory Data Analysis_ (EDA). One limitation of the French vision, however, was the lack of more explanatory and causal modeling techniques that matched the geometric spirit without privileging inferential statistics on rather hard to meet assumptions of real data (like the "soft modeling" ideals of Herman Wold). 
@@ -14,7 +9,7 @@ Being a professor in the prestigious Business School HEC, Michel asked Sante abo
 
 ## Customer Satisfaction
 
-Claes Fornell had been introduced to PLS around the end 1970s / early 1980s by American Professor and morphometrician Fred Bookstein, while both were teaching at the University of Michigan. In turn, Fred Bookstein was an expert in morphometrics who had had the opportunity to learn about Herman Wold's methods and even collaborate with him. In fact, a couple of geometrical interpretations of PLS-PM were provided by Bookstein (1980, 1982). Among one of the most cited PLS papers on marketing applications is the 1982 article "Exit Voice", written by both Fornell and Bookstein in the Journal of Marketing Research. Claes found PLS very interesting and convenient. He even edited a two volume book published under the title _A Second Generation of Multivariate Analysis_ ([Fornell, 1982](references.html/#Fornell1982)). And he also taught those methods to students in the Business PhD Program at Michigan University.
+Claes Fornell had been introduced to PLS around the end 1970s / early 1980s by American Professor and morphometrician Fred Bookstein, while both were teaching at the University of Michigan. In turn, Fred Bookstein was an expert in morphometrics who had had the opportunity to learn about Herman Wold's methods and even collaborate with him. In fact, a couple of geometrical interpretations of PLS-PM were provided by Bookstein (1980, 1982). Among one of the most cited PLS papers on marketing applications is the 1982 article "Exit Voice", written by both Fornell and Bookstein in the Journal of Marketing Research. Claes found PLS very interesting and convenient. He even edited a two volume book published under the title _A Second Generation of Multivariate Analysis_ [@Fornell1982]. And he also taught those methods to students in the Business PhD Program at Michigan University.
 
 Claes Fornell used the PLS Path Modeling approach for Customer Satisfaction, and he, like Svante, used it not only for academic research but also for consulting purposes. In this case, the method was employed by the firm _Claes Fornell Group_ (CFG). The main application of PLS-PM by Claes Fornell was on Customer Satisfaction. Among his entrepeneurial research projects he developed the _Swedish Customer Satisfaction Barometer_ in 1989. And then he started the project for developing the _American Customer Satisfaction Index_ (ACSI) in 1994. 
 

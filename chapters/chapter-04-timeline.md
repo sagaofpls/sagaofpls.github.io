@@ -1,46 +1,41 @@
-# Timeline
+# Commented Timeline
 
 Before presenting the historical narrative, I would like to point out some of the historical highlights that have paved the way for today's place of PLS methods. This brief timeline features events that have guided the path traveled until our current days.
 
-The origins of all PLS methods can be traced back to the mid 1960s where the precursors of modern-day PLS tools were developed by Herman Wold and his research group at the Uppsala University, Sweden. From his work on econometric models of simultaneous equations, Herman Wold modified the algorithm of his Fix-Point method to solve a series of ad-hoc data analysis problems. Under the name __NILES__, short for "Nonlinear Iterative Least Squares," Herman Wold [@Wold1966b] discussed a set of methods solved by means of iterative procedures based on steps of least squares regressions. Among the ad-hoc treated problems, NILES were used to perform Principal Components Analysis [@Wold1966a] and Canonical Correlation Analysis.
+The origins of all PLS methods can be traced back to the mid 1960s where the precursors of modern-day PLS tools were developed by Herman Wold and his research group at the Uppsala University, Sweden. From his work on econometric models of simultaneous equations, Herman Wold modified the algorithm of his Fix-Point method to solve a series of ad-hoc data analysis problems. Historically, the first type of PLS algorithm is a power method [@Wold1966b] for computing Principal Components (PCA). This procedure was almost immediately extended to a series of ad-hoc procedures among which there was a version to calculate Canonical Correlations (CCA). Under the name __NILES__, short for "Nonlinear Iterative Least Squares," Herman [@Wold1966a] presented a collage of examples solved by means of iterative procedures based on steps of least squares regressions. 
 
-Interestingly, these initial works contained the fundamental mathematical elements of all subsequent PLS methods: computation of _data components_ as weighted sums of variables, operationally obtained through steps of least squares regressions. Not long after their presentation, [@WoldLyttkens1969] replaced the term "NILES" by "NIPALS" (Nonlinear Itearive PArtial Least Squares), consequently shifting from NILES procedures to NIPALS procedures. 
+Interestingly, these initial works contained the fundamental mathematical elements of all subsequent PLS methods: computation of _data components_ as weighted sums of variables, operationally obtained through steps of least squares regressions. Not long after their presentation, [@WoldLyttkens1969] replaced the term "NILES" by "NIPALS" (Nonlinear Itearive PArtial Least Squares), consequently shifting from _NILES procedures_ to _NIPALS procedures_. Because the publications around NILES, subsequently NIPALS, emphasized the computation of Principal Components Analysis, today most authors refer to NIPALS as the PLS algorithm for PCA. To avoid confusion, I prefer to use the term NIPALS-PCA for this special case.
 
-Because the publications around NILES, subsequently NIPALS, emphasized the computation of Principal Components Analysis, today most authors refer to NIPALS as the PLS algorithm for PCA. To avoid confusion, I will use the term NIPALS-PCA for this special case.
+It is worth noting that the first NIPALS procedures __were never a single methodology nor a single approach__. They were rather a collection of more or less disconnected and different algorithms for solving a diversity of methods such as PCA, CCA, regressions, and systems of econometric equations. 
 
-The truth is that the term NIPALS, as used by Herman Wold, was a very broad label. It was so broad that renowned American mathematician Joseph Kruskal once asked Herman [@Wold1973] "whether an explicit definition can be given for the class of nonlinear models that constitute the scope of NIPALS modeling." Wold answered: 
-
-> NIPALS modelling is highly flexible, allowing the combined used of several devices, including parameter grouping and relaxation; auxiliary transformation of the model; and modeling the predictors in terms of indirectly observed manifest variables and other hypothetical constructs. Hence I see NIPALS as an open ended array of models with unlimited complexity in the combined use of several devices. 
-
-Historically, the first type of PLS algorithm was a power method [@Wold1966b] for computing Principal Components. This procedure was almost immediately extended to a series of procedures among which there was a version to calculate Canonical Correlations [@Wold1966a]. These first precursors were introduced in the mid-1960s under the name of "NILES procedures," and they changed to "NIPALS procedures," at the end of the 1960s decade [@WoldLyttkens1969]. It is worth noting that __the first NIPALS procedures were never a single methodology nor a single approach__. They were rather a collection of more or less disconnected and different algorithms for solving a diversity of methods such as PCA, CCA, regressions, and systems of econometric equations.
-
------
 
 #### Early 1970s: NIPALS Modeling
 
 In the early 1970s, the so-called NIPALS procedures experienced a wave of modifications. The most impacting factor was the inclusion of (at the time recent) simple path models with latent variables (two blocks). In 1973 Wold changed again the label for his methods: from "NIPALS procedures" to "NIPALS modeling," clearly reflecting a more mature---but still incomplete---modeling framework [@Wold1973]. 
 
------
 
 #### NIPALS and Basic Path Models
 
-The origins of the PLS Path Modeling branch date back to the early 1970s soon after the breakthrough synthesis resulting from the merging of econometric simultaneous equations models, psychometric latent variable models, sociology causal analysis, and biometric path analysis. Inspired by the modeling synthesis work achieved by Karl Joöreskog---one of Herman's former PhD students---Wold started to brew what he initially called _NIPALS modeling_, a more formal framework based on his NIPALS procedures. 
+The origins of the PLS Path Modeling branch date back to the early 1970s soon after the breakthrough synthesis resulting from the merging of econometric simultaneous equations models, psychometric latent variable models, sociology causal analysis, and biometric path analysis. Inspired by the modeling synthesis work achieved by Karl Jöreskog---one of Herman's former PhD students---Wold started to brew what he initially called _NIPALS modeling_, a more formal framework based on his NIPALS procedures.
 
-Seeing and seizing the opportunity to develop his own modeling approach, Wold's team refined and polished different versions of a general methodology for estimating path models with observed and unobserved variables. Throughout the 1970s, Herman Wold and his group developed PLS Path Modeling as a methodological framework to handle different types of socio-econometric models that could be estimated by applying iterative algorithms of least squares regressions. Under the term _PLS Soft Modeling_, Herman Wold proposed a generic modeling framework, wrapped around his unique philosophical perspective, with the goal of solving path models with latent variables. Among the vast array of references, the classic works are those of Wold ([@Wold1980a], [@Wold1980b], [@Wold1982b], [@Wold1985a]).
+In fact, the term NIPALS, as used by Herman Wold, was a very broad label. It was so broad that renowned American mathematician Joseph Kruskal once asked Herman [@Wold1973] "whether an explicit definition can be given for the class of nonlinear models that constitute the scope of NIPALS modeling." Wold answered: 
 
------
+> NIPALS modelling is highly flexible, allowing the combined used of several devices, including parameter grouping and relaxation; auxiliary transformation of the model; and modeling the predictors in terms of indirectly observed manifest variables and other hypothetical constructs. Hence I see NIPALS as an open ended array of models with unlimited complexity in the combined use of several devices. 
+
+Seeing and seizing the opportunity to develop his own modeling approach, Wold's team refined and polished different versions of a general methodology for estimating path models with observed and unobserved variables. Throughout the 1970s, Herman Wold and his group developed PLS Path Modeling as a methodological framework to handle different types of socio-econometric models that could be estimated by applying iterative algorithms of least squares regressions. Under the term _PLS Soft Modeling_, Herman Wold proposed a generic modeling framework, wrapped around his unique philosophical perspective, with the goal of solving path models with latent variables. Among the vast array of references, the classic works are those of Wold [@Wold1980a], [@Wold1980b], [@Wold1982b], [@Wold1985a].
+
 
 #### Mid 1970s: NIPALS Soft Modeling
 
-The mid-1970s is a time of extensive work and exprimentation. In first place there is the extension of the algorithms from handling two blocks (2 latent variables) to handling three blocks (3 latent variables); secondly there is the extension of handling one between-block relation to more than one between-block relation (Wold1974, Wold1975a, Wold1975b).
+The mid-1970s is a time of extensive work and refining. In first place there is the extension of the algorithms from handling two blocks (2 latent variables) to handling three blocks (3 latent variables); secondly there is the extension of handling one between-block relation to more than one between-block relation (Wold1974, Wold1975a, Wold1975b).
 
-It is in the second half of the 1970s when Herman Wold introduces the notion of "Soft Modeling" in _Soft Modelling by Latent Variables: The Non-Linear Iterative Partial Least Squares (NIPALS) Approach_ [@Wold1975a]. To the best of my knowledge, this is the first time that Wold publishes a paper mentioning the term "soft modeling", which he will adopt later as a formal term to wrap his model building framework via PLS path models.
+It is in the second half of the 1970s when Herman Wold introduces the fanciful notion of "Soft Modeling" briefly introduced in _"Soft Modelling by Latent Variables: The Non-Linear Iterative Partial Least Squares (NIPALS) Approach"_ [@Wold1975a]. To the best of my knowledge, this is the first time that Wold publishes a paper mentioning the term "soft modeling", which he will adopt later as the insignia to wrap his model building framework via PLS path models.
 
 > The NIPALS approach is applied to the 'soft' type of model that has come to the fore in sociology and other social sciences in the last five or ten years, namely path models that involve latent variables which serve as proxies for blocks of indirectly observed variables.
 
 The "soft modeling" notion is more of ideological nature and will also evolve in the following years. Its underlying meaning implies the idea of modeling in "complex situations where data and prior information are relatively scarce and without requiring assumptions about the stochastic-distributional properties of variables and residuals" [@Wold1975a].
 
-From _Path Models with Latent Variables: The NIPALS Approach_ [@Wold1975b] (page 352)
+From _"Path Models with Latent Variables: The NIPALS Approach"_ [@Wold1975b] (page 352)
 
 > It sometimes happens that the model builder has little or no more prior information at disposal for the model construction than its intended operative use. The NIPALS models are designed with particular view to applications in such low-information situations.
 
@@ -55,11 +50,11 @@ From _Path Models with Latent Variables: The NIPALS Approach_ [@Wold1975b] (page
 
 Toward the ending of the 1970s, after a long simmering and cooking, Wold and his team arrive to a more defined framework. The set of algorithms have been polished and refined. Finally, the acronym "NIPALS" is shortened to "PLS", and the more or less uncoordinated types of models are reduced and emphasized to handle path models with latent variables indirectly observed. In other words, the other types of models, of a more econometric flavor (GEID, REID, etc) that previously overlapped NIPALS modeling become secondary topics within the PLS framework.
 
-Wold [@Wold1979] _Causal-Predictive Analysis of Problems with High Complexity and Low Information: Recent Developments of Soft Modeling_ is the first publication with all the elements of the basic design. This is the first time where Wold uses the definitive terminology that will prevail. More specifically, it is the first time that the terms "Mode A" and "Mode B"---for the two main types of weight relations---appear.
+Wold [@Wold1979] _Causal-Predictive Analysis of Problems with High Complexity and Low Information: Recent Developments of Soft Modeling_ is the first publication with all the elements of the basic design. This is the first time where Wold uses the definitive terminology that will prevail in his subsequent manuscripts. More specifically, it is the first time that the terms "Mode A" and "Mode B"---for the two main types to estimate the so-called weight relations---appear.
 
 Also in 1979 the LISREL-PLS meeting jointly organized by Karl Jöreskog and Herman Wold takes place in Cartigny, Switzerland. The proceedings of this meeting will be published in 1982 in the form of a two-volume book: the classic _Systems under indirect observation: Causality, structure, prediction_.
 
-The end of the 1970s decade sees the official presentation of the so-called __Basic Design__ for PLS path models. This is the what can be considered to be the _stable_ version and further discussed in (Wold1980a,Wold1982a,Wold1985a). This is the basic method for PLS Path Analysis with Latent Variables, and it is the one on top of which all extensions and modifications are based on. Paraphrasing in marketing terms, the basic design is Wold's _minimal viable product_.
+The end of the 1970s decade sees the official presentation of the so-called __Basic Design__ for PLS path models. This is the what can be considered to be the _stable_ version and further discussed in (Wold1980a, Wold1982a, Wold1985a). This is the basic method for PLS Path Analysis with Latent Variables, and it is the one on top of which all extensions and modifications are based on. Paraphrasing in marketing terms, the basic design is Wold's _minimal viable product_.
 
 -----
 
