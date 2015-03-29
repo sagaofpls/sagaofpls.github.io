@@ -20,7 +20,7 @@ Despite all their differences and constrasts, it seems a bit unfair to keep isol
 
 ## A Third PLS Culture
 
-Today we can say that a contemporary conciliatory culture has taken the best of the first two schools, keeping the path modeling roots of Herman Wold, the very pragmatic side of Chemometricians, and adding a refreshing view with a strong multivariate data analysis flavor. 
+Today we can say that a contemporary conciliatory culture has taken the best of the first two schools, keeping the path modeling roots of Herman Wold, the very pragmatic side of the chemometricians, and adding a refreshing view with a strong multivariate data analysis flavor. 
 
 Regardless of whether you are a newcomer or an experienced user of some PLS methods, I think it is important to talk about these issues. They help us be aware of the differences in the literature, be conscious about difficulties, but also be open to new opportunities and advantageous analytical possibilities.
 

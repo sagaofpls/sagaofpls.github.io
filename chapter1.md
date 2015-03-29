@@ -17,7 +17,7 @@ By writing this book, my aim is to shed some light about the teaching and unders
 
 ## The proof of the pudding
 
-In his classic _"Soft Modeling: The Basic Design and Some Extensions"_, Herman  ([Wold, 1982b](references.html/#Wold1982b)), includes the following footnote on page 24: 
+In his classic _"Soft Modeling: The Basic Design and Some Extensions,"_ Herman  ([Wold, 1982b](references.html/#Wold1982b)), includes the following footnote on page 24: 
 
 > Most nonlinear iterative techniques of estimation are lacking an analytic proof of convergence. The proof of the pudding is in the eating. 
 
@@ -45,13 +45,7 @@ Part 1 covers a general introduction describing general aspects about Partial Le
 
 I've been able to gather invaluable unpublished information and details from my own involvement around the PLS community, as well as from personal communications with leading _PLSers_ (via email, skype, and personal meetings). 
 
-Many thanks to Michel Tenenhaus for being so gentle to answer to my many emails full of questions and inquiries. _Merci beaucoup_.
-
-Equally important has been the contribution of Wynne Chin, who has also patiently answered to all my questions, providing responses full of details and milimetric precision. _Thanks a lot_.
-
-I would also like to _ringraziare_ Vincenzo Esposito Vinzi. Despite his super busy agenda, Vincenzo was able to dedicate me a couple of skype meetings, answering my questions, and providing valuable feedback. 
-
-Likewise, I would like to thank Christian Ringle and Jörg Henseler for responding to my emails and questions, and for sharing several of their papers. 
+My heartfelt thanks to Michel Tenenhaus, Wynne Chin, and Vincenzo Esposito-Vinzi. They all have being very gentle to answer to my emails full of questions and inquiries, providing responses full of details and milimetric precision.  
 
 Also, many thanks to my various friends, colleagues, and, for the lack of a better term, _followers_ around the world that have been helping me proof-read the content, detecting bugs, and fixing typos. I take full responsibility for any prevailing errata in the text.
 

@@ -33,6 +33,8 @@ title: "References"
 
 <a name="Tenenhaus1998"></a> Tenenhaus, M. (1998) _La Régression PLS. Théorie et Pratique_. Editions Technip.
 
+<a name="Tenenhausetal2005"></a> Tenenhaus, M., Esposito-Vinzi, V., Chatelin, Y-M., Lauro, C. (2005) "PLS Path Modeling." _Computational Statistics & Data Analysis_, 48, 159-205.
+
 <a name="Whittle1992"></a> Whittle, P. (1992) "Obituary: Professor Herman Wold." _Journal of the Royal Statistical Society. Series A (Statistics in Society)_, Vol. 155, No. 3, 466-469.
 
 <a name="Wold1954"></a> Wold, H. (1954) "Causality and Econometrics." _Econometrica_, Vol. 22, No. 2, 162-177.
@@ -55,7 +57,9 @@ title: "References"
 
 <a name="Wold1982c"></a> Wold, H. (1982c) "Systems under indirect observation using PLS (Partial Least Squares)." In _A Second Generation of Multivariate Analysis_, edited by C. Fornell, 325-347. Praeger.
 
-<a name="WoldLyttkens1969"></a> Wold, H., Lyttkens, E. (1969) First Partial Least Squares
+<a name="Wold1985a"></a> Wold, H. (1985a) "Partial Least Squares." In _Encyclopedia of Statistical Sciences_, edited by S. Kotz and N. L. Johnson, Vol 6, 581-591. Wiley.
+
+<a name="WoldLyttkens1969"></a> Wold, H., Lyttkens, E. (1969) "Nonlinear Iterative Partial Least Squares (NIPALS) estimation procedures." _Bull. Inst. Internat. Statist._ 53, 29-51.
 
 <a name="Wold1995"></a> Wold, S. (1995) "Chemometrics; what do we mean with it, and what do we want from it?" _Chemometrics and Intelligent Laboratory Systems_, 30, 109-115.
 
