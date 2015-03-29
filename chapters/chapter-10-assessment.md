@@ -1,13 +1,8 @@
 # Critical Review
 
-The lack of initial interest and attention that H-Wold's PLS Path Modeling framework suffered, were not an issue for S-Wold PLS Regression proposals. 
+In the previous chapters I've tried to provide a comprehensive account of the many events that have shaped the evolution of PLS methods. However, they are not enough to have a complete understanding of the status PLS methods reached at the end of last century. The lack of initial interest and attention that Herman's PLS Path Modeling framework suffered, was not an issue for Svante's PLS Regression proposals. No one can deny the overwhelming popularity that PLS Regression-related techniques have over PLS Path Modeling approaches. Likewise, no one argues that LISREL and covariance-based SEM approaches are also better known than SEM-PLS. 
 
-Herman Wold's legacy is astounding and remarkable. But it was packaged in his very particular idiosyncratic style. It's important to discuss several considerations. I will present Herman's philosophy. I will also provide my personal assessment of some of the crucial factors that determined the destiny of PLS methods in general.
-
-
-A key factor was the area of application where they were the pioneers. S-Wold even coined the term Chemometrics and he started the renowned journal Chemometrics. Together with Laboratory and Intelligent Systems, would turn out to be the self-reasurring channel of communication for their discipline---something that Herman Wold never had. Among the more than 20+ PLS-PM publications of H-Wold, none of them was in one the prestigious journals like Psychometrika (of academic mass distribution), and there was never a textbook. 
-
-Analyzed Points:
+For better or worse, Herman's PLS framework has occupied an awkward place in the multivariate data analysis spectrum. His legacy is astounding and remarkable. But it was packaged in his very particular idiosyncratic style. However, there have been very few attempts to clarify this situation in the related literature. Consequently, I think it's important to provide a critical review that allows us scatter the fog that has impeded a clearer panaroma. In this chapter, I want to provide my personal assessment of some of the crucial factors that determined the destiny of PLS methods in general, and PLS-PM in particular. I will focus on the following points:
 
 - Software availability
 - Presentation and notation formats
@@ -61,9 +56,9 @@ In short, the real difference between PLS Regression and PLS Path Modeling is in
 
 ## Communication and Channels of Distribution
 
-Equally important was the way in which most of Herman Wold's publications about PLS appeared; in particular _where_ they appeared. More than 50 percent of Herman Wold's publications about PLS are in the form of chapters in proceedings books or edited books, with a very limited reach. This means that the scope of his work was highly restricted. Only a few readers would have access to this body of literature. 
+Equally important was the way in which most of Herman Wold's publications about PLS appeared; in particular _where_ they appeared. More than 50 percent of Herman Wold's publications about PLS are in the form of chapters in proceedings books or edited books, with a very limited reach. This means that the scope of his work was highly restricted. Only a few readers would have access to this body of literature.
 
-Also unfortunate was not having a publication in an academic journal of prestige and mass scope. Jöreskog published in the famous _Psyhometrika_. Svante Wold was more clever and he published in his own journals _Journal of Chemometrics_, and later in _Chemometrics and Intelligent Laboratory Systems_. Why did Herman choose to publish his works the way he did it? In his autobiographical essay _"Models for Knowledge"_, Herman [@Wold1982b] writes on page 205:
+Also unfortunate was not having a publication in an academic journal of prestige and mass scope; among the more than 20+ PLS-PM publications of Herman Wold, none of them appeared in a renowned journal. Jöreskog published in the famous _Psyhometrika_. Svante Wold was more clever and he published in his field journals _Journal of Chemometrics_, and later in _Chemometrics and Intelligent Laboratory Systems_. Why did Herman choose to publish his works the way he did it? In his autobiographical essay _"Models for Knowledge"_, Herman [@Wold1982b] writes on page 205:
 
 > Among experienced researchers working at the periphery or outside the mainstream, there is some consensus that established learned journals adhere to the mainstream; their referees do not have the function of evaluating contributions that break away from this mainstream.
 
@@ -87,7 +82,7 @@ The book of Lohmöller is definitely something to study and read for anyone inte
 
 ## Herman Wold's Personality
 
-Among the personal characteristics of Herman Wold, there are three traits without which it is not possible to understand his PLS developments:
+Among the personal characteristics of Herman Wold, there are three traits without which it is impossible to fully understand his PLS developments:
 
 - His relentless obsession with the principle of Least Squares.
 - His wide interdisciplinary interests.
