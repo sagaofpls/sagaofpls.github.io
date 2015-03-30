@@ -37,6 +37,8 @@ title: "References"
 
 <a name="Tenenhausetal2005"></a> Tenenhaus, M., Esposito-Vinzi, V., Chatelin, Y-M., Lauro, C. (2005) "PLS Path Modeling." _Computational Statistics & Data Analysis_, 48, 159-205.
 
+<a name="Wainer2010"></a> Wainer, H. (2010) "Profiles in Research: Karl Gustav Jöreskog." _Journal of Educational and Behavioral Statistics_. DOI: 10.3102/1076998610388778, 1-10.
+
 <a name="Whittle1992"></a> Whittle, P. (1992) "Obituary: Professor Herman Wold." _Journal of the Royal Statistical Society. Series A (Statistics in Society)_, Vol. 155, No. 3, 466-469.
 
 <a name="Wold1954"></a> Wold, H. (1954) "Causality and Econometrics." _Econometrica_, Vol. 22, No. 2, 162-177.

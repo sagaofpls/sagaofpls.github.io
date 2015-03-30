@@ -87,28 +87,32 @@ The book of Lohmöller is definitely something to study and read for anyone inte
 
 ## Herman Wold's Personality
 
-Among the personal characteristics of Herman Wold, there are three traits without which it is impossible to fully understand his PLS developments:
+In addition to the points previously discussed, there's one more element without which it one cannot entirely explain the way in which the original PLS framework was developedL the personality of Herman Wold. Among his personal characteristics, there are three fundamental traits concerning the story of PLS:
 
 - His relentless obsession with the principle of Least Squares.
 - His wide interdisciplinary interests.
 - His tendency to work on his own. 
 
+Herman Wold was passionated about Least Squares. In his autobiography ([Wold, 1982a](references.html/#Wold1982a)), when reviewing his research trajectory divided in four main periods (time-series 1932-1938; economic analysis of consumer demand, 1938-1952; econometrics and path models with directly observed variables, 1945-1970; and systems analysis and path models with indirectly observed variables, 1966-onwards), he makes it very clearly:
+
+> Throughout these 50 years, my contributions have been based on the least squares (LS) principle.
+
+The attention that Maximum Likelihood attracted, and its mainstream place on the statistical literature, was something that Wold never felt comfortable with. Even at the end of Wold's academic life, in his last publications he often wrote lines reflecting his mixed feelings respecting but rejecting at the same time the method of Maximum Likelihood. Here's a revealing excerpt from Herman Wold's interview for the _Econometric Theory_ ([HenryMorgan, 1994](references.html/#HenryMorgan1994)):
+
+> (ET) Would it be fair to see the least-squares principle as the consistent link through your research contributions in statistics, econometrics, and time series? 
+> (HW) Yes, I think it is. I agree with that very much. 
+(ET) And was this conscious---that you felt least squares was right and you kept applying it as you tackled a problem? 
+> (HW) Yes, yes, yes, ...
+
 Herman was as much statistician and econometrician as philosopher and thinker. His thoughts often crossed the thin line, not always clearly marked, that divides mathematics-statistical concepts from theoretical concepts of a more philosophical and epistemological nature. Playing both roles of protagonist and witness, Herman couldn't scaped to the revolutionary events hapenning at the time. He had not only taken an active role in econometrics, but he had also have being interested in psychometrics, causal analysis, and path analysis. However, instead of joining the efforts of the mainstream with linear structural models, maximum likelihood, covariance structure analysis, and the like, he decided to follow his own path. That decision was not random, it was part of who Herman was---his character and his way of thinking. 
 
-Taking a different route, he saw the opportunity to come up with his own interpretation of model-building with latent variables, making use of iterative procedures of least squares. Above all, he followed a vision radically different to the one adopted by most other researchers. In regards of structural equation models, Wold was dealing with almost the same type of models, at least visually speaking (using common graphical representations), and with the use of latent variables and systems of linear relationships. But conceptually, operationally, and ideologically, Herman Wold went on an another direction; something that was not fully appreciated while Herman was alive---and still is not nowadays---. It wasn't until the late 1990s and early 2000s that authors like Michel Tenenhaus, Mohammed Hanfi, Esposito Vinzi, Qannari, to mention but a few, revisited PLS-PM and refurbished it with fresher interpretations.
+One of the most captivating texts about Herman Wold is the obituary written by Petter ([Whittle, 1992](references.html/#Whittle1992))---former PhD student of Herman during the 1950s. In this touching document, Whittle portraits Wold's work style in the following terms:
 
+> His tendency to work on his own, using his own methods, was a strength, but also a dissadvantage in that the advances that he was making were less known and recognized than they should have been.
 
-## Lessons Learned
+In the same obituary Whittle writes: 
 
-I think we can learn some very interesting lessons from the story behind PLS methods. 
+> "Herman's very striking trait was his determination and single mindedness. Once he had embarked on an interest or a course of action he would pursue it for a matter of years, ignoring obstacles, which sometimes also meant ignoring susceptibilities. This characteristic made him something of a byword; it was said that whenever two or more Scandinavian statisticians were gathered together then the conversation would inevitably soon turn to the subject of Herman Wold."
 
-- The role of software
-- Channels of communication
-- Learning/Studying material
-- Role of symposia and conferences
-
-The role of software tools allows users to _taste_ whether they like the pudding. 
-
-Channels of distribution are important. As Herman painfully recognized, when someone does "dissident" research or works outside the mainstream, the traditional paths operate more as a filter than as an empowering resource. Equally important is the formats of presentation. In order for others to use, read, consume our work, we need to make it approachable and understandable. Otherwise, it will remain unnoticed, or awkwardly perceived, and even negatively criticized.
-
+So what can we say about Wold's personality influence on PLS? My assessment is this one. Taking a different route, Herman Wold saw the opportunity to come up with his own interpretation of model-building with latent variables, making use of his toolbox of iterative procedures based on least squares. Above all, he followed a vision radically different to the one adopted by most other researchers. In regards of structural equation models, Wold was dealing with almost the same type of models, at least visually speaking (using common graphical representations), and with the use of latent variables and systems of linear relationships. But conceptually, operationally, and ideologically, Herman Wold went on an another direction, away from the mainstream proposals. This is something that was not fully appreciated while Herman was alive---and even today after more than 30 years that PLS has been around us---.
 
