@@ -19,6 +19,8 @@ title: "References"
 
 <a name="HendryMorgan1994"></a> Hendry, D. F., Morgan, M. S. (1994) "The ET Interview: Professor H.O.A. Wold: 1908-1992." _Econometric Theory_, 10, 419-433.
 
+<a name="Kaergard2012"></a> Kaergard, N. (2012) "Haavelmo and Denmark." _Nordic Journal of Political Economy_, 37, 1-20.
+
 <a name="Kroonenberg1990"></a> Kroonenberg, P. M. (1990) "Latent Variable Path Modeling with Partial Least Squares. Review" _Journal of the American Statistical Association_, Vol. 85, No. 411, 909-910.
 
 <a name="Lohmoller1989"></a> Lohmöller, J-B. (1989) _Latent Variable Path Modeling with Partial Least Squares_. Physica-Verlag.

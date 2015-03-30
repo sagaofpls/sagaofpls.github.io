@@ -5,12 +5,7 @@ title: "philosopher"
 
 # The Philosopher of Science
 
-By the end of the 1940s, Herman Wold had already been working for over 17 or so years (1932 - 1949) on a number of topics including time series, insurance statistics, analysis of consumer demand, and econometric systems of equations. Moreover, he was basically the only Scandinavian econometrician outside of Oslo with international reputation. 
-
-> "Where the Oslo school was a central part of the internatinal mainstream econometric tradition in the 1930s, 1940s, and 1950s, Wold was seen as a man with a rather special point of view."
-
-During the 1950s and 1960s Wold's research interests broadened from econometrics to other non-experimental analysis in general, and to the area of philosophy of science. Throughout the 1950s he dedicated a considerable amount of time to discuss notions of _model building_, and in particular, a lot of his work spinned around the prickly notion of _causality_. These topics (causality and model-building) were among Herman Wold's favorite subjects of study. Everything that had to do with theorizing about causation and models deserved his attention, especially as viewed from the more abstract and intellectual perspective of Philosophy of Science. In particular, Wold formed part of the main trend among econometricians that were keenly interested on making econometrics as scientific as possible. To achieve this, researchers needed to be able to apply a scientific method of proposing hypotheses and test them. 
-
+During the 1950s and 1960s Wold's research interests broadened from econometrics to other non-experimental analysis in general, and to the area of philosophy of science. Throughout the 1950s he dedicated a considerable amount of time to discuss notions of _model building_, and in particular, a lot of his work spinned around the prickly notion of _causality_. These topics (causality and model-building) were among Herman Wold's favorite subjects of study. Everything that had to do with theorizing about causation and models deserved his attention, especially as viewed from the more abstract and intellectual perspective of Philosophy of Science. In particular, Wold formed part of the main trend among econometricians that were keenly interested on making econometrics as scientific as possible. To achieve this, it was believed that researchers needed to be able to apply a scientific method of proposing hypotheses and test them. 
 
 In Wold's eyes, based on his extensive hands-on experience, research in economics as well as in other social sciences had "two heavy handicaps." One of the handicaps had to do with working "without the guidance and support of controlled experiment, the supreme tool of natural sciences," Wold believed. This was something not only attributable to economics but it was common to other social sciences. The second major handicap had to do with the type of data "notoriously unreliable" for the major part, and sometimes even "scarce or completely lacking." Suffering from those drawbacks "it is no wonder," Wold concluded, "that quantitative economic research displays little of the rigour and precision attained in many natural sciences."
 
@@ -76,7 +71,7 @@ $$ y = f(x_1, x_2, \dots, x_p) + error $$
 the conditional expectation:
 $$ E(y|x) = f(x_1, x_2, \dots, x_p) $$
 
-implies that the the $error$ term is uncorrelated with the $$x$$ variables. If we take a step further an assume a linear function:
+implies that the the $$error$$ term is uncorrelated with the $$x$$ variables. If we take a step further an assume a linear function:
 
 $$
 f(x_1, \dots, x_p) = b_1 x_p + \dots + b_p x_p
