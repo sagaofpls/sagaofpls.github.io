@@ -48,3 +48,5 @@ After the initial confusion Michel had with PLS Path Modeling, he soon realized 
 
 Likewise, the Customer Satisfaction movement of the late 1990s inspired European members to proposed a similar alternative to the American Customer Satisfaction Index, but this time adapted to the European geography and economy. A consortium of universities and researchers was formed and the ESIS project was born with the goal, among other purposes, to continue the development of PLS-PM software. This also sparked a fire of interest for the methodology, bringing a revival and mass difusion. 
 
+<a class="continue" href="chapter10.html">Next chapter</a>
+

@@ -51,3 +51,5 @@ By the early 1990s, PLS Regression was on the summit. Svante Wold was promoting 
 In 1992, French practitioners and researchers started to have their first contact with the PLS regression methods. Among the consulting activities of Svante, he was difussing his methods and software around the European Chemical Industry. In France, he consulted for L'Oreal introducing his tools and software. Before long other companies were catching up with this method. One of those companies was Rhone-Poulenc. At that time, the head of the data analysis research department, Jean-Pierre Gauchy, asked statistician and professor Michel Tenenhaus to explain the PLS methods and train the company's researchers. Michel, a french professor in business school and also a consultant for industry, accepted the request of Jean-Pierre and started to study the regression via PLS. Nothing would prepare Michel for the coming revolution of the following years.
 
 
+<a class="continue" href="chapter9.html">Next chapter</a>
+

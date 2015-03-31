@@ -67,7 +67,7 @@ Wold put emphasis on knowing the interrelations of all the variables in terms of
 Before Haavelmo's contributions, the errors $$\epsilon_t$$ and $$\delta_t$$ in the models were thought to be due to measurement discrepancies. What Trygve proposed instead was to treat the errors in the statistical sense of random noise, and assign them a certain distribution. In this way, the Maximum Likelihood device had the door open, allowing researcher to test and discard hypothesis. His advice was to avoid using Ordinary Least Squares (OLS), since this method provided inconsistent results when applied to simultaneous equation models. Instead, he favored and promoted the use of Maximum Likelihood. 
 
 
-#### Wold's effort to rescue OLS
+### Wold's effort to rescue OLS
 
 Haavelmo's advice against OLS was a shocking statement for Wold. "I felt so disturbed," Herman wrote, "by Haavelmo's wholesale dismissal of it." Considering that all of Wold's work had been based on OLS, and that he had achieved very good results with it, he was very surprised by the bad press least squares received. Herman was anything but "spurred" by Haavelmo's "rejection of OLS regression." Could it be possible that Haavelmo was right and that OLS were to be banned? If that were the case, all results previously obtained by Herman were useless, something that didn't seem to match at all with his analysis and practical evidence. 
 

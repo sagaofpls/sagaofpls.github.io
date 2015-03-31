@@ -72,7 +72,7 @@ Wold put emphasis on knowing the interrelations of all the variables in terms of
 Before Haavelmo's contributions, the errors $$\epsilon_t$$ and $$\delta_t$$ in the models were thought to be due to measurement discrepancies. What Trygve proposed instead was to treat the errors in the statistical sense of random noise, and assign them a certain distribution. In this way, the Maximum Likelihood device had the door open, allowing researcher to test and discard hypothesis. His advice was to avoid using Ordinary Least Squares (OLS), since this method provided inconsistent results when applied to simultaneous equation models. Instead, he favored and promoted the use of Maximum Likelihood. 
 
 
-#### Wold's effort to rescue OLS
+### Wold's effort to rescue OLS
 
 Haavelmo's advice against OLS was a shocking statement for Wold. "I felt so disturbed," Herman wrote, "by Haavelmo's wholesale dismissal of it." Considering that all of Wold's work had been based on OLS, and that he had achieved very good results with it, he was very surprised by the bad press least squares received. Herman was anything but "spurred" by Haavelmo's "rejection of OLS regression." Could it be possible that Haavelmo was right and that OLS were to be banned? If that were the case, all results previously obtained by Herman were useless, something that didn't seem to match at all with his analysis and practical evidence. 
 
@@ -85,4 +85,6 @@ By the end of the 1940s, Herman Wold had already been working for over 17 or so 
 In summary, the main question of debate became whether the structure of economic models was simultaneous or recursive? This was reflected in the theme _"Toward a verdict on macroeconomic simultaneous equations"_, title of a publication edited by Wold. The main stream in econometrics for estimating simultaneous equation systems was the one based on the method of Maximum Likelihood. Wold was not part of this group. On the contrary, Herman was a prominent figure in favor of recursivity and use of least squares, a stance that he would maintain for the rest of his life. However, it was Haavelmo's point of view that became the dominating one. The Maximum Likelihood convenience and elegance offered the mechanism of hypothesis testing, too tempting and irresistible to let it go by most researchers.
 
 Wold always tried in one way or another to find a solution by least squares. Making distinction between simultaneous equations of recursive and non-recursive type, Bentzel and Wold showed that Haavelmo's wholesale dismissal of OLS estimation of the structural equations was applicable to non-recursive systems only, but not for recursive systems. For approximately the following 15 years, Wold went on a tortuouse mission to find an OLS solution for non-recursive systems.
+
+<a class="continue" href="chapter6.html">Next chapter</a>
 

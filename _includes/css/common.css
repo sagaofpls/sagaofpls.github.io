@@ -68,16 +68,67 @@ h3, h4 {
 	color: rgba(0,0,0,0.8);	
 }
 
+p {
+	margin: 0;
+	padding-top: 1em; 
+	line-height: 125%;
+}
+
+article.ack { padding-bottom: 4em; }
+
+blockquote { 
+	padding-left: 1em; 
+	border-left: 5px solid #efefef;
+}
+
+blockquote p { 
+	padding-top: 0; 
+	margin-bottom: -0.6em;
+	color: rgba(0,0,0,0.6);
+    font-style: italic;
+}
+
+ol { margin-top: 0.5em; margin-bottom: 0; } 
+
+article img { width: 100%; }
+
+p.quote { margin-bottom: 2em; font-style: italic; text-indent: -0.4em; }
+
+cite, .osf, div.sign {
+	font-family: ff-quadraat-sc-web, Georgia, serif;
+	font-size: 1em;
+	letter-spacing: 2px;
+	font-style: normal;
+	text-transform: lowercase;
+}
+
+div.sign {
+	border: 2px solid rgba(0,0,0,0.2);
+	max-width: 70%;
+	margin: 2em auto;
+	text-align: center;
+	padding: 1em 1.5em;
+	font-size: 1.4em;
+}
+
+.osf { letter-spacing: 0; }
+
+ul { list-style: circle; }
+
+
+/* -----------------------------------------*/
+/*  Header									*/
+/* -----------------------------------------*/
+
 header {
 	font-family: "Times New Roman", Georgia, serif;
 	font-size: 1em;
 	color: rgba(0,0,0,0.4);
 	font-weight: normal;
 	text-align: center;
-	padding-bottom: 5em;
 	background-color: #fff;
 	max-width: 30em;
-	padding: 1em 3em;
+	padding: 0.8em 3em;
 	margin: 0 auto;
 	border-left: 1px solid rgba(0,0,0,0.07);
 	border-right: 1px solid rgba(0,0,0,0.07);
@@ -104,27 +155,9 @@ header small {
 header small a { color: rgba(0,0,0,0.4); text-decoration: underline; }
 header small a:hover { color: #f06060; }
 
-p {
-	margin: 0;
-	padding-top: 1em; 
-	line-height: 125%;
-}
-
-article.ack { padding-bottom: 4em; }
-
-blockquote { 
-	padding-left: 1em; 
-	border-left: 5px solid #efefef;
-}
-
-blockquote p { 
-	padding-top: 0; 
-	margin-bottom: -0.6em;
-	color: rgba(0,0,0,0.6);
-    font-style: italic;
-}
-
-ol { margin-top: 0.5em; margin-bottom: 0; } 
+/* -----------------------------------------*/
+/*  Navigation bar							*/
+/* -----------------------------------------*/
 
 nav {
 	border: 0;
@@ -134,10 +167,12 @@ nav {
 	text-align: left;
 	background: none;
 	position: fixed;
-	top: 20%;
-	left: 22%;
+	top: 21%;
+	left: 25%;
 	margin-top: -1.8em;
 	margin-left: -10em;
+/*	margin-top: 0em;
+	margin-left: 4em; */
 }
 
 nav a { text-decoration: none; color: rgba(0,0,0,0.1); }
@@ -181,55 +216,36 @@ nav ol li { overflow: hidden; }
 
 nav ol li.sep { margin-bottom: 0.5em; }
 
-article img { width: 100%; }
 
-p.quote { margin-bottom: 2em; font-style: italic; text-indent: -0.4em; }
-
-cite, .osf, div.sign {
-	font-family: ff-quadraat-sc-web, Georgia, serif;
-	font-size: 1em;
-	letter-spacing: 2px;
-	font-style: normal;
-	text-transform: lowercase;
+/* -----------------------------------------*/
+/*  Footer									*/
+/* -----------------------------------------*/
+footer { 
+	text-align: center; 
+	font-size: 0.8em; 
+	color: rgba(0,0,0,0.4); 
+	padding: 0em 0 1em 0; 
 }
 
-div.sign {
-	border: 2px solid rgba(0,0,0,0.2);
-	max-width: 70%;
-	margin: 2em auto;
-	text-align: center;
-	padding: 1em 1.5em;
-	font-size: 1.4em;
-}
-
-.osf { letter-spacing: 0; }
-
-img.illo {
-	padding-top: 5em;
-}
-
-div.img-block { margin: 1.6em 0; }
-
-ul { list-style: circle; }
-
-
-footer { text-align: center; font-size: 0.8em; color: rgba(0,0,0,0.4); padding: 1em 0; }
 footer a { color: rgba(0,0,0,0.4); }
  
 
-/*CSS3 extras*/
+/* -----------------------------------------*/
+/*  CSS3 extras								*/
+/* -----------------------------------------*/
 
 a.continue {
 	width: 100%;
 	border-top: 1px solid rgba(0,0,0,0.1);
 	display: block;
-	padding: 3em 3em 3.25em 3em;
+	padding: 1em 3em 0em 3em;
 	text-align: center;
-	margin-top: 4em;
+	margin-top: 1em;
 	margin-bottom: 0;
 	margin-left: -3em;
-	color: #e74357;
+	color: #f06060;
 	text-decoration: none;
+	border-bottom: 0px;
 }
 
 a.continue:hover { text-decoration: underline; }
@@ -317,6 +333,7 @@ article.toc ul li {
 	}
 }
 
-@media screen and (min-width:1300px) { 	body { font-size: 24px; }  }
+@media screen and (min-width:1100px) { 	body { font-size: 24px; }  }
+@media screen and (min-width:1300px) { 	body { font-size: 25px; }  }
 @media screen and (min-width:1800px) { 	body { font-size: 26px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }  }
 @media screen and (min-width:2100px) { 	body { font-size: 32px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }  } 

@@ -33,3 +33,5 @@ One of the very first things I knew I wanted to do was to find out more about th
 
 All I wanted was to be able to answer the _who_, _when_, _how_, and _why_. Who created PLS? When was it developed? How was the development process? And why? How does something such as PLS methods is developed? What were the circumstances that gave birth to that framework? In this sense, the quest became a quest not only about PLS itself but also about its creator, about his mind, his ideas, and surrounding context. Among all my inquires, one question has remained for years in the back burner of my head: Why was PLS Path Modeling not that well known? Think about it. By 2005, the first works about PLS had been already present for almost 30 years! Yet, having access to those references was---and still is---ridiculously difficult. I think I have now most of the elements to answer the questions that have been lingering since that fall of 2005. 
 
+<a class="continue" href="chapter3.html">Next chapter</a>
+

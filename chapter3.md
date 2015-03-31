@@ -95,3 +95,5 @@ Today Partial Least Squares methods are well recognized in pretty much all field
 
 But it hasn't always been like this.
 
+<a class="continue" href="chapter4.html">Next chapter</a>
+

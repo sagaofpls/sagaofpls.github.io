@@ -9,9 +9,9 @@ title: "References"
 
 <a name="Erikssonetal2014"></a> Eriksson, L., Trygg, J., Wold, S. (2014) "A chemometrics toolbox based on projections and latent variables." _Journal of Chemometrics_, 28, 332-346.
 
-<a name="Espositoetal2010"></a> Esposito et al. (2010) _Handbook of Partial Least Squares_. Edited by V. Esposito-Vinzi, W. W. Chin, J. Henseler and H. Wang. Springer.
+<a name="Espositoetal2010"></a> Esposito-Vinzi et al. (2010) _Handbook of Partial Least Squares_. Edited by V. Esposito-Vinzi, W. W. Chin, J. Henseler, and H. Wang. Springer.
 
-<a name="Fornell1982"></a> Fornell, C. (1982) _A Second Generation of Multivariate Analysis_, edited by C. Fornell. Praeger.
+<a name="Fornell1982"></a> Fornell, C. (1982) _A Second Generation of Multivariate Analysis_. Edited by C. Fornell. Praeger.
 
 <a name="Geladi1988"></a> Geladi, P. (1988) "Notes on the History and Nature of Partial Least Squares (PLS) Modelling." _Journal of Chemometrics_, 2, 231-246.
 
@@ -26,6 +26,8 @@ title: "References"
 <a name="Lohmoller1989"></a> Lohmöller, J-B. (1989) _Latent Variable Path Modeling with Partial Least Squares_. Physica-Verlag.
 
 <a name="Martens2001"></a> Martens, H. (2001) "Reliable and relevant modelling of real world data: a personal account of the development of PLS Regression." _Chemometrics and Intelligent Laboratory Systems_, 58, 85-95.
+
+<a name="Morgan1992"></a> Morgan, M. S. (1992) _The History of Econometrics Ideas_. Cambridge University Press.
 
 <a name="Pomerantsev2014"></a> Pomerantsev, A. L. (2014) "What is Chemometrics." In _Chemometrics in Excel_, edited by A. L. Pomerantsev, 3-7. John Wiley & Sons.
 

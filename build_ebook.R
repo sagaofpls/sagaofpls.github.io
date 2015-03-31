@@ -35,7 +35,6 @@ make_yaml_header <- function(src) {
   chap_title <- chap_num_title[3]
   
   # yaml header
-  ##  outfile <- sprintf("ebook/%s.md", chap_num)
   outfile <- sprintf("chapter%s.md", chap_num)
   cat(file = outfile, "---", "\n", sep = '')
   cat(file = outfile, "layout: page", "\n", sep = '', append = TRUE)
@@ -46,9 +45,26 @@ make_yaml_header <- function(src) {
   print(sprintf("printing yaml header of chapter %s", chap_num))
 }
 
+# create temporary file to append 'next chapter' link
+next_chapter_link <- function(chap_num) {
+  outfile <- "chapters/next_chapter.txt"
+  chap_num <- as.numeric(chap_num)
+  if (chap_num != 11) {
+    cat(file = outfile, '<a class="continue" href="chapter', sep = '')
+    cat(file = outfile, sprintf('%s.html">Next chapter</a>', chap_num + 1),
+        sep = '', append = TRUE)
+    cat(file = outfile, '\n\n', sep = '', append = TRUE)     
+  } else {
+    cat(file = outfile, '\n', sep = '')      
+  }
+}
+
 # appends a source .md file to its yaml-header .md file 
 append_mdfiles <- function(src, dest) {
+  # append main chapter content
   system(sprintf("cat chapters/%s >> %s", src, dest))
+  # append next chapter link
+  system(sprintf("cat chapters/next_chapter.txt >> %s", dest))
   sprintf("appending %s to %s", src, dest)
 }
 
@@ -61,6 +77,7 @@ render_chapter <- function(src) {
   if (!needs_update(src, dest)) return()
   
   make_yaml_header(src)
+  next_chapter_link(chap_num)
   append_mdfiles(src, dest)
 }
 
