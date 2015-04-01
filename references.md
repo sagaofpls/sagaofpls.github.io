@@ -5,6 +5,8 @@ title: "References"
 
 # References
 
+<a name="Abdietal2013"></a> Abdi et al (2013) _New Perspectives in Partial Least Squares and Related Methods_. Edited by Abdi, H., Chin, W.W., Esposito Vinzi, V., Russolillo, G., Trinchera, L. Springer.
+
 <a name="Cramer1982"></a> Cramer, H. (1982) "Foreword. Some Remarks to Open the Conference." _Systems under indirect observation: Causality, structure, prediction_, edited by K. G. Jöreskog and H. Wold. Vol I, vii-xi. North-Holland.
 
 <a name="Erikssonetal2014"></a> Eriksson, L., Trygg, J., Wold, S. (2014) "A chemometrics toolbox based on projections and latent variables." _Journal of Chemometrics_, 28, 332-346.
