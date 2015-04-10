@@ -24,7 +24,7 @@ At its heart, Partial Least Squares provide a versatile platform for analyzing m
 - their estimation ideas anchored on the principle of least squares
 - their marked geometrical flavor of projection-based methods 
 - their inherent dimension reduction nature
-- the graphical possibilities they open for data visualization
+- their rich possibilities for data visualization
 - their strong inductive spirit
 - their fit within statistical learning approaches	
 
@@ -37,10 +37,10 @@ If what you are looking for is an official definition of PLS I'm afraid you won'
 
 > Partial Least Squares is a versatile multivariate 
 > data modeling framework for analyzing multiple relationships
-> among one or more sets of variables measured on some objects
+> among one or more sets of variables measured on some objects.
 
 
-One thing for sure is that there's a large number of methods labeled with the PLS acronym. There is an amazing variety of methods and approaches, so diverse and plural, that it seems practically impossible to view them under a united scope. In my opinion, many headaches would be avoided if there was a unique reason for a method to be labeled with the PLS acronym. For better or worse, there is not just one but several sources that make a method be sheltered under the PLS brand. Methods carrying PLS as prefix or suffix are so varied and so imbued in different fields and areas of application that it seems hard to picture them all under the same lens. 
+One thing for sure is that there's a large number of methods labeled with the PLS acronym. Such an amazing variety of methods and approaches, so diverse and plural, makes them seem practically impossible to view under a united scope. In my opinion, many headaches would be avoided if there was a unique reason for a method to be labeled with the PLS acronym. For better or worse, there is not just one but several sources that make a method be sheltered under the PLS brand. Methods carrying PLS as prefix or suffix are so varied and so imbued in different fields and areas of application that it seems hard to picture them all under the same lens. 
 
 The literature about PLS methods is incredibly rich. If you take a look at the dozens of references about Partial Least Squares, you will be shocked with a mind blowing puzzle. The major benefit of such abundance of material is the richness of concepts, principles, applications, extensions, and new proposals. The ugly side is that there's no universal view, no unified notation, no unique terminology, and even worse, slightly different connotations of the term PLS. Which only makes it easy to get lost along the way. After all, this reflects the evolution of PLS methods, how they have spread out, how they have permeated into different subfields, and how they have come to occupy multiple places within the collective consciousness of Multivariate Data Analysis. Everywhere a PLS method has taken up residence, it dresses in different clothes, does its hair differently, and speaks a slighty different dialect. 
 

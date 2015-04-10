@@ -7,6 +7,12 @@ title: "References"
 
 <a name="Abdietal2013"></a> Abdi et al (2013) _New Perspectives in Partial Least Squares and Related Methods_. Edited by Abdi, H., Chin, W.W., Esposito Vinzi, V., Russolillo, G., Trinchera, L. Springer.
 
+<a name="Bookstein1980"></a> Bookstein, F. L. (1980) "Data Analysis by Partial Least Squares." In _Evaluation of Econometric Models_. Edited by J. Kmenta and J. B. Ramsey, 75-90. Academic Press.
+
+<a name="Bookstein1982"></a> Bookstein, F. L. (1982a) "The geometric meaning of soft modeling, with some generalizations." In _Systems under indirect observation: Causality, structure, prediction_. Edited by K. G. Jöreskog and H. Wold, Vol II, 55-74. North-Holland.
+
+<a name="Bookstein1982b"></a> Bookstein, F. L.  (1982b) "Data Analysis by Partial Least Squares." In _A Second Generation of Multivariate Analysis_. Edited by C. Fornell, Vol 1, 348-366. Praeger.
+
 <a name="Cramer1982"></a> Cramer, H. (1982) "Foreword. Some Remarks to Open the Conference." _Systems under indirect observation: Causality, structure, prediction_, edited by K. G. Jöreskog and H. Wold. Vol I, vii-xi. North-Holland.
 
 <a name="Erikssonetal2014"></a> Eriksson, L., Trygg, J., Wold, S. (2014) "A chemometrics toolbox based on projections and latent variables." _Journal of Chemometrics_, 28, 332-346.
@@ -19,11 +25,13 @@ title: "References"
 
 <a name="Geladi1992"></a> Geladi, P. (1992) "Obituary: Herman Wold, the father of PLS." _Chemometrics and Intelligent Laboratory Systems_, 15, 1, R7-R8.
 
+<a name="Hanafi2007"></a> Hanafi, M. (2007) "PLS Path modelling: computation of latent variables with the estimation mode B." _Computational Statistics_, 22, 275-292.
+
 <a name="HendryMorgan1994"></a> Hendry, D. F., Morgan, M. S. (1994) "The ET Interview: Professor H.O.A. Wold: 1908-1992." _Econometric Theory_, 10, 419-433.
 
 <a name="Kaergard2012"></a> Kaergard, N. (2012) "Haavelmo and Denmark." _Nordic Journal of Political Economy_, 37, 1-20.
 
-<a name="Kroonenberg1990"></a> Kroonenberg, P. M. (1990) "Latent Variable Path Modeling with Partial Least Squares. Review" _Journal of the American Statistical Association_, Vol. 85, No. 411, 909-910.
+<a name="Kroonenberg1990"></a> Kroonenberg, P. M. (1990) "Latent Variable Path Modeling with Partial Least Squares. Review." _Journal of the American Statistical Association_, Vol. 85, No. 411, 909-910.
 
 <a name="Lohmoller1989"></a> Lohmöller, J-B. (1989) _Latent Variable Path Modeling with Partial Least Squares_. Physica-Verlag.
 
@@ -40,6 +48,8 @@ title: "References"
 <a name="Tenenhaus1998"></a> Tenenhaus, M. (1998) _La Régression PLS. Théorie et Pratique_. Editions Technip.
 
 <a name="Tenenhausetal2005"></a> Tenenhaus, M., Esposito-Vinzi, V., Chatelin, Y-M., Lauro, C. (2005) "PLS Path Modeling." _Computational Statistics & Data Analysis_, 48, 159-205.
+
+<a name="TenenhausHanafi2010"></a> Tenenhaus, M., Hanafi, M. (2020) "A Bridge Between PLS Path Modeling and Multi-Block Data Analysis." In _Handbook of Partial Least Squares_. Edited by V. Esposito-Vinzi, W. W. Chin, J. Henseler, and H. Wang. 99-123. Springer.
 
 <a name="Wainer2010"></a> Wainer, H. (2010) "Profiles in Research: Karl Gustav Jöreskog." _Journal of Educational and Behavioral Statistics_. DOI: 10.3102/1076998610388778, 1-10.
 

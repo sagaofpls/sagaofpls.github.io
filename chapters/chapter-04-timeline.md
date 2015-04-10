@@ -25,7 +25,7 @@ Keep in mind that the term NIPALS, as used by Herman Wold, was a very broad labe
 
 The mid-1970s is a time of extensive work and refinement. Seeing and seizing the opportunity to develop his own modeling approach, Wold's team, this time at the University of Gothenburg, refined and polished different versions of a general methodology for estimating path models with observed and unobserved variables. Throughout the 1970s, Herman Wold led the development of an alternative methodology to estimate path models by applying iterative algorithms of least squares regressions. In first place there is the extension of the algorithms from handling two blocks (2 latent variables) to handling three blocks (3 latent variables); secondly there is the extension of handling one between-block relation to more than one between-block relation (Wold1974, Wold1975a, Wold1975b).
 
-It is also during this second half of the 1970s when Herman Wold introduces the fanciful notion of "Soft Modeling," which he will adopt later as the insignia to wrap his model-building framework via PLS approach. To the best of my knowledge, the first time that Wold publishes a paper mentioning the term "soft modeling" is in _"Soft Modelling by Latent Variables: The Non-Linear Iterative Partial Least Squares (NIPALS) Approach"_ [@Wold1975a].  
+It is also during this second half of the 1970s when Herman Wold introduces the fanciful notion of "Soft Modeling," which he will adopt later as the insignia to wrap his model-building framework via the PLS approach. To the best of my knowledge, the first time that Wold publishes a paper mentioning the term "soft modeling" is in _"Soft Modelling by Latent Variables: The Non-Linear Iterative Partial Least Squares (NIPALS) Approach"_ [@Wold1975a].  
 
 > The NIPALS approach is applied to the 'soft' type of model that has come to the fore in sociology and other social sciences in the last five or ten years, namely path models that involve latent variables which serve as proxies for blocks of indirectly observed variables.
 
@@ -56,11 +56,11 @@ Also in 1979 the LISREL-PLS meeting jointly organized by Karl Jöreskog and Herm
 
 Under the term _PLS Soft Modeling_, Herman Wold proposed a generic modeling framework, wrapped around his unique philosophical perspective, with the goal of solving path models with latent variables. Among the vast array of references, the classic works are those of Wold [@Wold1980a], [@Wold1980b], [@Wold1982b], [@Wold1985a].
 
-From [@Wold1985]:
+From [@Wold1985a]:
 
 > Soft Modeling is the name for the methodology for PLS estimation of path models with latent variables indirectly observed by multiple indicators.
 
-The methodology involving the basic design is fully described in [Wold1982a](Wold1982a). Geometric interpretations are provided by Fred Bookstein (Bookstein1980,Bookstein1982a,Bookstein1982b). What is perhaps the first pseudo-code description of the basic algorithm is provided by Jan-Bernd Lohmöller (1989, p. 29).
+The methodology involving the basic design is fully described in [@Wold1982a]. Geometric interpretations are provided by Fred Bookstein [@Bookstein1980], (Bookstein1982a, Bookstein1982b). What is perhaps the first pseudo-code description of the basic algorithm is provided by Jan-Bernd Lohmöller (1989, p. 29).
 
 
 ### Late 1980s
@@ -78,7 +78,7 @@ In the 1990s, there's basically no theoretical progress. The most interesting wo
 
 The beginning of the XXI century saw a renaissance of interest in PLS-PM. Major contributions were made by French researchers. Among the primary landmarks we have the paper _PLS Path Modeling_ by Tenenhaus et al (2005), in the journal _Computational Statistics & Data Analysis_ (CSDA). At the time of this writing, this paper accumulates 1921---the most cited paper of CSDA!.
 
-On the theoretical side, the works of Hanafi and Tenenhaus are fundamental. Their work has brought a better understanding of the algorithm. They've continued the multiblock extensions initiated by Lohmöller, and Hanafi has even resolved some of the issues around the convergence of the PLS-PM algorithm. 
+On the theoretical side, the works of Hanafi (2007) and Tenenhaus (2010), are fundamental. Their work has brought a better understanding of the algorithm. They've continued the multiblock extensions initiated by Lohmöller, and Hanafi has even resolved some of the issues around the convergence of the PLS-PM algorithm. 
 
 More recently, Tenenhaus has proposed new modifications that allows us to tweak the PLS-PM algorithm in such a way that we guarantee its convergence, be sure of how the algorithm works, and includes PLS-Regression as one of its special cases. Extended on the same direction, Arthur and Michel Tenenhaus (2011) have proposed their *Regularized Generalized Canonical Correlation Analysis* (RGCCA).
 
