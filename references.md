@@ -57,6 +57,8 @@ title: "References"
 
 <a name="Wold1954"></a> Wold, H. (1954) "Causality and Econometrics." _Econometrica_, Vol. 22, No. 2, 162-177.
 
+<a name="Wold1963"></a> Wold, H. (1963) "On the Consistency of Least Squares Regression." _The Indian Journal of Statistics, Series A_, Vol. 25, No. 2, 211-2115.
+
 <a name="Wold1966a"></a> Wold, H. (1966a) "Nonlinear Estimation by Iterative Least Square Procedures." In _Research Papers in Statistics. Festschrift for J. Neyman_, edited by F. N. David, 411-444. Wiley.
 
 <a name="Wold1966b"></a> Wold, H. (1966b) "Estimation of Principal Components and Related Models by Iterative Least Squares." In _Multivariate Analysis. Proceedings of an International Symposium held in Dayton, Ohio, June 14-19, 1965_, edited by P. R. Krishnaiah, 391-420. Academic Press.
