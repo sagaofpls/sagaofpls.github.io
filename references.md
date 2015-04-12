@@ -15,6 +15,8 @@ title: "References"
 
 <a name="Cramer1982"></a> Cramer, H. (1982) "Foreword. Some Remarks to Open the Conference." _Systems under indirect observation: Causality, structure, prediction_, edited by K. G. Jöreskog and H. Wold. Vol I, vii-xi. North-Holland.
 
+<a name="Duncan1966"></a> Duncan, O. D. (1966) "Path Analysis: Sociological Examples." _The American Journal of Sociology_, Vol. 72, No. 1, 1-16.
+
 <a name="Erikssonetal2014"></a> Eriksson, L., Trygg, J., Wold, S. (2014) "A chemometrics toolbox based on projections and latent variables." _Journal of Chemometrics_, 28, 332-346.
 
 <a name="Espositoetal2010"></a> Esposito-Vinzi et al. (2010) _Handbook of Partial Least Squares_. Edited by V. Esposito-Vinzi, W. W. Chin, J. Henseler, and H. Wang. Springer.
