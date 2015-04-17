@@ -78,6 +78,8 @@ In the 1990s, there's basically no theoretical progress. The most interesting wo
 
 The beginning of the XXI century saw a renaissance of interest in PLS-PM. Major contributions were made by French researchers. Among the primary landmarks we have the paper _PLS Path Modeling_ by Tenenhaus et al (2005), in the journal _Computational Statistics & Data Analysis_ (CSDA). At the time of this writing, this paper accumulates 1921---the most cited paper of CSDA!.
 
+On the software side, 2005 saw the launching and presentation of the software "SmartPLS 2" by Ringle, Wende, and Will (2005). Their work has been an on-going process with a series of versions (the current one being SmartPLS 3). Currently, SmartPLS has a bit more than 2000 citations, and growing.
+
 On the theoretical side, the works of Hanafi (2007) and Tenenhaus (2010), are fundamental. Their work has brought a better understanding of the algorithm. They've continued the multiblock extensions initiated by Lohmöller, and Hanafi has even resolved some of the issues around the convergence of the PLS-PM algorithm. 
 
 More recently, Tenenhaus has proposed new modifications that allows us to tweak the PLS-PM algorithm in such a way that we guarantee its convergence, be sure of how the algorithm works, and includes PLS-Regression as one of its special cases. Extended on the same direction, Arthur and Michel Tenenhaus (2011) have proposed their *Regularized Generalized Canonical Correlation Analysis* (RGCCA).

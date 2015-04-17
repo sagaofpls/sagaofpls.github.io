@@ -43,6 +43,8 @@ title: "References"
 
 <a name="Pomerantsev2014"></a> Pomerantsev, A. L. (2014) "What is Chemometrics." In _Chemometrics in Excel_, edited by A. L. Pomerantsev, 3-7. John Wiley & Sons.
 
+<a name="RingleWendeWill2005"></a> Ringle, C. M., Wende, S., and Will, A. (2005) __SmartPLS 2__ Hamburg: SmartPLS.
+
 <a name="Sanchez2009"></a> Sanchez, G. (2009) _Pathmox Approach: Segmentation Trees in Partial Least Squares Path Modeling_. PhD Thesis. Universitat Politecnica de Catalunya.
 
 <a name="Sanchez2013"></a> Sanchez, G. (2013) _PLS Path Modeling with R_. Trowchez Editions.
