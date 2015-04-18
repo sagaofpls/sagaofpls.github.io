@@ -19,7 +19,7 @@ For better or worse, Herman's PLS framework has occupied an awkward place in the
 
 A crucial factor to understand the itinerary followed by PLS methods has to do with the computational tools. One fundamental difference between PLS Path Modeling and PLS Regression had to do with the initial availability of software programs, evidenced by the lack of programming skills of Herman versus the highly talented coding abilities of Svante. This is the perhaps the most important aspect that negatively affected the spread of Herman's PLS during the 1980s and 1990s. Although Herman Wold did use computers for calculations and estimations, he never wrote a single line of code. 
 
-In the _"The ET Interview: Professor H.O.A. Wold (1908-1992)"_, David Hendry and Mary Morgan present the transcribed interviews they had with Herman Wold. When they asked him about his involvement in computing, Herman answered:
+In the _"The ET Interview: Professor H.O.A. Wold (1908-1992)"_, David Hendry and Mary Morgan presented the transcribed interviews they had with Herman Wold. When they asked him about his involvement in computing, Herman answered:
 
 > I never did any computer programming, but I did use computers a great deal and did a substantial amount of computational work. I never relegated this purely to research assistants, and at one time I was one of the main computors. In the thirties and forties we mainly used calculating machines; later it was computers based on programs written by others.
 
@@ -97,7 +97,7 @@ Herman Wold was passionated about Least Squares. In his autobiography ([Wold, 19
 
 > Throughout these 50 years, my contributions have been based on the least squares (LS) principle.
 
-The attention that Maximum Likelihood attracted, and its mainstream place on the statistical literature, was something that Wold never felt comfortable with. Even at the end of Wold's academic life, in his last publications he often wrote lines reflecting his mixed feelings respecting but rejecting at the same time the method of Maximum Likelihood. Here's a revealing excerpt from Herman Wold's interview for the _Econometric Theory_ ([HenryMorgan, 1994](references.html/#HenryMorgan1994)):
+The attention that Maximum Likelihood attracted, and its mainstream place on the statistical literature, was something that Wold never felt comfortable with. Even at the end of Wold's academic life, in his last publications he often wrote lines reflecting his mixed feelings respecting but rejecting at the same time the method of Maximum Likelihood. Here's a revealing excerpt from Herman Wold's interview for the _Econometric Theory_ ([HendryMorgan, 1994](references.html/#HendryMorgan1994)):
 
 > (ET) Would it be fair to see the least-squares principle as the consistent link through your research contributions in statistics, econometrics, and time series? 
 > (HW) Yes, I think it is. I agree with that very much. 

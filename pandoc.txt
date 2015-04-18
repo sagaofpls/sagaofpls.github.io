@@ -1,16 +1,16 @@
 # creates book as a 'report' (no references)
-pandoc chapters/*.md --variable title="The Saga of PLS" --variable author="Gaston Sanchez" --variable date="March 2015" --variable fontsize=12pt --toc-depth=1 -V documentclass=report -o sagaofpls.pdf
+pandoc chapters/*.md --variable title="The Saga of PLS" --variable author="Gaston Sanchez" --variable date="April 2015" --variable fontsize=12pt --toc-depth=1 -V documentclass=report -o sagaofpls.pdf
 
 
 # creates book as a 'report' (with references)
-pandoc chapters/*.md --variable title="The Saga of PLS" --variable author="Gaston Sanchez" --variable date="March 2015" --variable fontsize=12pt --toc-depth=1 --biblio chapters/biblio.bib --csl chapters/chicago-author-date.csl -V documentclass=report -o sagaofpls.pdf
+pandoc chapters/*.md --variable title="The Saga of PLS" --variable author="Gaston Sanchez" --variable date="April 2015" --variable fontsize=12pt --toc-depth=1 --biblio chapters/biblio.bib --csl chapters/chicago-author-date.csl -V documentclass=report -o sagaofpls.pdf
 
 
 # creates book as 'article'
-pandoc chapters/*.md --variable title="The Saga of PLS" --variable author="Gaston Sanchez" --variable date="March 2015" --variable fontsize=12pt --toc-depth=1 -o sagaofpls.pdf
+pandoc chapters/*.md --variable title="The Saga of PLS" --variable author="Gaston Sanchez" --variable date="April 2015" --variable fontsize=12pt --toc-depth=1 -o sagaofpls.pdf
 
 
-pandoc chapters/*.md --variable title="The Saga of PLS" --variable author="Gaston Sanchez" --variable date="March 2015" --variable fontsize=12pt --toc -o sagaofpls.pdf
+pandoc chapters/*.md --variable title="The Saga of PLS" --variable author="Gaston Sanchez" --variable date="April 2015" --variable fontsize=12pt --toc -o sagaofpls.pdf
 
 
 # html output
