@@ -7,6 +7,8 @@ title: "References"
 
 <a name="Abdietal2013"></a> Abdi et al (2013) _New Perspectives in Partial Least Squares and Related Methods_. Edited by Abdi, H., Chin, W.W., Esposito Vinzi, V., Russolillo, G., Trinchera, L. Springer.
 
+<a name="Bayne1992"></a> Bayne, C. K. (1992) "Latent Variable Path Modeling with Partial Least Squares by Jan-Bernd Lohmöller - Review." _Technometrics_. Vol. 34, No. 1, 110-111..
+
 <a name="Bookstein1980"></a> Bookstein, F. L. (1980) "Data Analysis by Partial Least Squares." In _Evaluation of Econometric Models_. Edited by J. Kmenta and J. B. Ramsey, 75-90. Academic Press.
 
 <a name="Bookstein1982"></a> Bookstein, F. L. (1982a) "The geometric meaning of soft modeling, with some generalizations." In _Systems under indirect observation: Causality, structure, prediction_. Edited by K. G. Jöreskog and H. Wold, Vol II, 55-74. North-Holland.
