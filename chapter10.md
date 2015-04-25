@@ -61,7 +61,7 @@ In short, the real difference between PLS Regression and PLS Path Modeling is in
 
 ## Communication and Channels of Distribution
 
-Equally important was the way in which most of Herman Wold's publications about PLS appeared; in particular _where_ they appeared. More than 50 percent of Herman Wold's publications about PLS are in the form of chapters in proceedings books or edited books, with a very limited reach. This means that the scope of his work was highly restricted. Only a few readers would have access to this body of literature.
+Equally important was the way in which most of Herman Wold's publications about PLS appeared; in particular _where_ they appeared. More than two thirds of Herman Wold's publications about PLS are in the form of chapters in proceedings books or edited books, with a very limited reach. This means that the scope of his work was highly restricted. Only a few readers would have access to this body of literature.
 
 Also unfortunate was not having a publication in an academic journal of prestige and mass scope; among the more than 20+ PLS-PM publications of Herman Wold, none of them appeared in a renowned journal. Jöreskog published in the famous _Psyhometrika_. Svante Wold was more clever and he published in his field journals _Journal of Chemometrics_, and later in _Chemometrics and Intelligent Laboratory Systems_. Why did Herman choose to publish his works the way he did it? In his autobiographical essay _"Models for Knowledge"_, Herman ([Wold, 1982b](references.html/#Wold1982b)) writes on page 205:
 
@@ -93,16 +93,20 @@ In addition to the points previously discussed, there's one more element without
 - His wide interdisciplinary interests.
 - His tendency to work on his own. 
 
-Herman Wold was passionated about Least Squares. In his autobiography ([Wold, 1982a](references.html/#Wold1982a)), when reviewing his research trajectory divided in four main periods (time-series 1932-1938; economic analysis of consumer demand, 1938-1952; econometrics and path models with directly observed variables, 1945-1970; and systems analysis and path models with indirectly observed variables, 1966-onwards), he makes it very clearly:
+Herman Wold was passionate about Least Squares. In his autobiography ([Wold, 1982a](references.html/#Wold1982a)), when reviewing his research trajectory divided in four main periods (time-series 1932-1938; economic analysis of consumer demand, 1938-1952; econometrics and path models with directly observed variables, 1945-1970; and systems analysis and path models with indirectly observed variables, 1966-onwards), he makes it very clearly:
 
 > Throughout these 50 years, my contributions have been based on the least squares (LS) principle.
 
 The attention that Maximum Likelihood attracted, and its mainstream place on the statistical literature, was something that Wold never felt comfortable with. Even at the end of Wold's academic life, in his last publications he often wrote lines reflecting his mixed feelings respecting but rejecting at the same time the method of Maximum Likelihood. Here's a revealing excerpt from Herman Wold's interview for the _Econometric Theory_ ([HendryMorgan, 1994](references.html/#HendryMorgan1994)):
 
 > (ET) Would it be fair to see the least-squares principle as the consistent link through your research contributions in statistics, econometrics, and time series? 
+
 > (HW) Yes, I think it is. I agree with that very much. 
-(ET) And was this conscious---that you felt least squares was right and you kept applying it as you tackled a problem? 
+
+> (ET) And was this conscious---that you felt least squares was right and you kept applying it as you tackled a problem? 
+
 > (HW) Yes, yes, yes, ...
+
 
 Herman was as much a statistician and econometrician as a philosopher and thinker. His thoughts often crossed the thin line, not always clearly marked, that divides mathematics-statistical concepts from theoretical concepts of a more philosophical and epistemological nature. Playing both roles of protagonist and witness, Herman couldn't scaped to the revolutionary events hapenning at the time. He had not only taken an active role in econometrics, but he had also have being interested in psychometrics, causal analysis, and path analysis. However, instead of joining the efforts of the mainstream with linear structural models, maximum likelihood, covariance structure analysis, and the like, he decided to follow his own path. That decision was not random, it was part of who Herman was---his character and his way of thinking. 
 
