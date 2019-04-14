@@ -1,6 +1,6 @@
 # The Saga of PLS
 
-Main repository behind the book [The Saga of PLS](http://sagaofpls.github.io)
+Main repository behind the book [The Saga of PLS](https://sagaofpls.github.io)
 
 
-Author: [Gaston Sanchez](http://gastonsanchez.com)
+Author: [Gaston Sanchez](https://www.gastonsanchez.com)
