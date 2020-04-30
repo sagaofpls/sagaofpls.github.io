@@ -15,7 +15,7 @@ The way and style in which the two Wolds presented their works have left a profo
 
 While it is true that such differences are not negligible, most of them are at the format level (i.e. the presentation). It is surprinsing how their outer layers pull them apart more than bringing them closer together. Despite all the differences, there are still strong ties and similarities. The most important common denominator is the mathematical and algorithmic principles. These common traits can be exploited to link them back together and see them both under the same glass. Fortunately, this separation has been reduced considerably in the last years, thanks to the organization of PLS symposiums, and the active work of researchers who have taken care of bridging the existing gaps.
 
-Despite all their differences and constrasts, it seems a bit unfair to keep isolated PLS-PM from PLS-R. This should not be the case anymore, specially when it can be shown the connection between both approaches. Similarly, there is also a drawback with the way PLS Regression methods haven presented in the chemometrics-based literature. As much attractive as it can be their minimal style, it misses so much of the richness of PLS-PM.
+Despite all their differences and constrasts, it seems a bit unfair to keep isolated PLS-PM from PLS-R. This should not be the case anymore, specially when it can be shown the connection between both approaches. Similarly, there is also a drawback with the way PLS Regression methods have been presented in the chemometrics-based literature. As much attractive as it can be their minimal style, it misses so much of the richness of PLS-PM.
 
 
 ## A Third PLS Culture
