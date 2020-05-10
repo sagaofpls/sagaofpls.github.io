@@ -1,1 +1,17 @@
+# R and Rstudio hidden files
+.Rproj.user
+.Rhistory
+.RData
+.Rapp.history
+*knit.md
+*utf8.md
+*.pdf
+*.epub
+
+.DS_Store
+_publish.R
+_book
+_bookdown_files
+_sagagithub*
+rsconnect
 _site
