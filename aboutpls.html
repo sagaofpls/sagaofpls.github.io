@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 A little bit about Partial Least Squares | The Saga of PLS</title>
+  <meta name="description" content="This book narrates the story behind the creation and evolution of Partial Least Squares methods." />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 A little bit about Partial Least Squares | The Saga of PLS" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This book narrates the story behind the creation and evolution of Partial Least Squares methods." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 A little bit about Partial Least Squares | The Saga of PLS" />
+  
+  <meta name="twitter:description" content="This book narrates the story behind the creation and evolution of Partial Least Squares methods." />
+  
+
+<meta name="author" content="Gaston Sanchez" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="kidding.html"/>
+<link rel="next" href="timeline.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><b>The Saga of PLS</b><br><small>Gaston Sanchez</small></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#full-edition"><i class="fa fa-check"></i>Full Edition</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#preview-edition"><i class="fa fa-check"></i>Preview Edition</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#praises"><i class="fa fa-check"></i>Praises</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#preface"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#the-proof-of-the-pudding"><i class="fa fa-check"></i><b>1.1</b> The proof of the pudding</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#outline"><i class="fa fa-check"></i><b>1.2</b> Outline</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#acknowledgements"><i class="fa fa-check"></i>Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="kidding.html"><a href="kidding.html"><i class="fa fa-check"></i><b>2</b> You’ve got to be kidding me</a></li>
+<li class="chapter" data-level="3" data-path="aboutpls.html"><a href="aboutpls.html"><i class="fa fa-check"></i><b>3</b> A little bit about Partial Least Squares</a><ul>
+<li class="chapter" data-level="3.1" data-path="aboutpls.html"><a href="aboutpls.html#pls"><i class="fa fa-check"></i><b>3.1</b> PLS</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="aboutpls.html"><a href="aboutpls.html#a-broad-definition-of-pls"><i class="fa fa-check"></i><b>3.1.1</b> A broad definition of PLS</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="aboutpls.html"><a href="aboutpls.html#some-words-of-caution"><i class="fa fa-check"></i><b>3.2</b> Some words of caution</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="aboutpls.html"><a href="aboutpls.html#path-modelism-and-regressionism"><i class="fa fa-check"></i><b>3.2.1</b> Path Modelism and Regressionism</a></li>
+<li class="chapter" data-level="3.2.2" data-path="aboutpls.html"><a href="aboutpls.html#pls-noun-or-adjective"><i class="fa fa-check"></i><b>3.2.2</b> PLS: Noun or Adjective?</a></li>
+<li class="chapter" data-level="3.2.3" data-path="aboutpls.html"><a href="aboutpls.html#algorithmic-approaches"><i class="fa fa-check"></i><b>3.2.3</b> Algorithmic approaches</a></li>
+<li class="chapter" data-level="3.2.4" data-path="aboutpls.html"><a href="aboutpls.html#fragmentation"><i class="fa fa-check"></i><b>3.2.4</b> Fragmentation</a></li>
+<li class="chapter" data-level="3.2.5" data-path="aboutpls.html"><a href="aboutpls.html#the-two-wolds"><i class="fa fa-check"></i><b>3.2.5</b> The two Wolds</a></li>
+<li class="chapter" data-level="3.2.6" data-path="aboutpls.html"><a href="aboutpls.html#pedagogy-of-pls"><i class="fa fa-check"></i><b>3.2.6</b> Pedagogy of PLS</a></li>
+<li class="chapter" data-level="3.2.7" data-path="aboutpls.html"><a href="aboutpls.html#current-status"><i class="fa fa-check"></i><b>3.2.7</b> Current Status</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="timeline.html"><a href="timeline.html"><i class="fa fa-check"></i><b>4</b> Commented Timeline</a><ul>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#mid-1960s-nipals-procedures"><i class="fa fa-check"></i>Mid-1960s: NIPALS Procedures</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#early-1970s-nipals-modeling"><i class="fa fa-check"></i>Early 1970s: NIPALS Modeling</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#mid-1970s-nipals-soft-modeling"><i class="fa fa-check"></i>Mid 1970s: NIPALS Soft Modeling</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#late-1970s-pls-soft-modeling"><i class="fa fa-check"></i>Late 1970s: PLS Soft Modeling</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#early-1980s-the-basic-design-and-extensions"><i class="fa fa-check"></i>Early 1980s: The Basic Design and Extensions</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#late-1980s"><i class="fa fa-check"></i>Late 1980s</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#s"><i class="fa fa-check"></i>1990s</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#s-1"><i class="fa fa-check"></i>2000s</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#in-summary"><i class="fa fa-check"></i>In summary</a></li>
+<li class="chapter" data-level="4.1" data-path="timeline.html"><a href="timeline.html#pls-regression-origins"><i class="fa fa-check"></i><b>4.1</b> PLS Regression Origins</a></li>
+</ul></li>
+<li class="part"><span><b>I The Econometrician</b></span></li>
+<li class="part"><span><b>II The Philosopher of Science</b></span></li>
+<li class="part"><span><b>III The Soft Modeler</b></span></li>
+<li class="part"><span><b>IV The Chemometrician</b></span></li>
+<li class="part"><span><b>V The Renaissance of Herman’s PLS</b></span></li>
+<li class="part"><span><b>VI Critical Review</b></span></li>
+<li class="part"><span><b>VII Conclusions and Final Remarks</b></span></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://leanpub.com/sagaofpls" target="blank">leanpub.com/sagaofpls</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Saga of PLS</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="aboutpls" class="section level1">
+<h1><span class="header-section-number">3</span> A little bit about Partial Least Squares</h1>
+<p>One of the ever present tasks of almost every data analysis endeavor is the
+study of relationships between variables. In its simplest form, the analyst wants
+to know whether two values are related with one another. For instance, I might
+be interested in studying if there is a relation between the number of calories
+in the coffees my friends and I drink, and the price we pay for them. The question
+about the relation between calories and price can be further broken down in other
+inquiries: What is the nature of the potential relationship? What is its
+magnitude? Or how important is it? I could also expand the analysis and ask about
+a possible dependency: Can I predict the prices of coffees based on the number
+of calories they contain? Or viceversa: Knowing the price of a coffee, what can
+I say about its number of calories? To answer these questions we can turn to the
+rich set of analytical tools that statistical methods give us by using a number
+of graphical displays and charts, measures of simultaneous variation such as
+covariance, coefficients of association such as correlation, and modeling options
+such as regression analysis.</p>
+<p>Often, we don’t have just two variables but many more. If we were hired to do a
+deeper and broader analysis on data from coffee shops, we surely would have more
+available information like the area size of the establishments, or records about
+frequent customers. Hence we could ask about the relationship between the number
+of square meters and the cost of the coffees. Furthermore, we can think about the
+differet aspects that go into the preparation of a cup of coffee—the beans,
+water, milk, sugar, etc—and how they may be associated with the financial
+performance of the businesses (earnings, losses, costs, etc). These questions
+and many others arise naturally when we do data analysis, and we aim to tackle
+them at various levels of statistical complexity.</p>
+<p>Depending on the circumstances, we may face situations in which the analyzed data
+are divided—or can be divided—into sets of variables. With the hypothetical
+coffee shops data, one set of variables may be comprised by quantity of
+ingredients (beans, water, milk, sugar), a second set may be formed by utilities
+consumption (gas, electricity, water, internet, etc), and a third set may be
+composed of sales by size of container (sold units by size: small, medium, large).
+Sometimes we just care about describing and summarizing the relationships. This
+is typically done in the initial phase of the analysis when we are in exploratory
+mode. Sometimes we may be interested in relationships of prediction and explanatory
+nature. Based on the analysts’s preconceived ideas or hypotheses about the data,
+more advanced and sophisticated tools can de devised. In all these cases we can
+rely on a wide range of multivariate statistical methods that allow us to generalize
+the analysis of two variables into two or more sets of variables. Among such
+methods, Partial Least Squares techniques stand out as one remarkable toolbox
+that, simply put, provides a versatile data modeling platform for analyzing
+relations among one or more sets of variables.</p>
+<div id="pls" class="section level2">
+<h2><span class="header-section-number">3.1</span> PLS</h2>
+<p>Rooted in a couple of data model-building and computational ideas developed
+by Herman Wold in the 1960s, <strong>Partial Least Squares</strong> methods have traveled a
+long journey until reaching the high praise and recognition they receive today.
+Experiencing gradual changes, and bifurcating into several branches, PLS methods
+have gone through a fascinating—although not always smooth—evolutionary process.
+Nevertheless, they all have proven to be tremendously valuable on both theoretical
+and practical aspects.</p>
+<p>At its heart, Partial Least Squares provide a versatile platform for analyzing
+multiple relationships among one or more sets of variables—measured on some
+objects. Among their attractiveness we can highlight several features:</p>
+<ul>
+<li>their deceptively simple iterative mechanisms</li>
+<li>their ease of programming implementation</li>
+<li>their estimation ideas anchored on the principle of least squares</li>
+<li>their marked geometrical flavor of projection-based methods</li>
+<li>their inherent dimension reduction nature</li>
+<li>their rich possibilities for data visualization</li>
+<li>their strong inductive spirit</li>
+<li>their fit within statistical learning approaches</li>
+</ul>
+<p>Above everything else, the most captivating trait—in my opinion—is that
+Partial Least Squares offers us a wide analytical platform that covers a large
+number of multivariate data analysis techniques. Plus, it gives us the ability
+to connect a number of seemingly unrelated methods. Such a platform, encompassing
+both its computational side, and its flexible analytical essence, is of a great
+richness and applicability very few times encountered in other data analysis
+approaches.</p>
+<div id="a-broad-definition-of-pls" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> A broad definition of PLS</h3>
+<p>If what you are looking for is an official definition of PLS I’m afraid you
+won’t find such thing. Instead, we could give different meanings to the PLS term.
+From a narrow point of view, we could talk about PLS as an algorithmic template
+for computing several multivariate models. From a more applied angle we could
+also talk about PLS as a family of regression-type data analysis methods. From
+a richer and more comprehensive standpoint, we can regard PLS as an umbrella
+term for dealing with multirrelational systems of one or more sets of variables
+following the principle of partial least squares. It is the latter description
+that I like to consider for defining PLS as a general framework. Here’s my
+definition. Broadly speaking:</p>
+<blockquote>
+<p>Partial Least Squares is a versatile multivariate
+data modeling framework for analyzing multiple relationships
+among one or more sets of variables measured on some objects.</p>
+</blockquote>
+<p>One thing for sure is that there’s a large number of methods labeled with the
+PLS acronym. Such an amazing variety of methods and approaches, so diverse and
+plural, makes them seem practically impossible to view under a united scope.
+In my opinion, many headaches would be avoided if there was a unique reason for
+a method to be labeled with the PLS acronym. For better or worse, there is not
+just one but several sources that make a method be sheltered under the PLS brand.
+Methods carrying PLS as prefix or suffix are so varied and so imbued in different
+fields and areas of application that it seems hard to picture them all under the
+same lens.</p>
+<p>The literature about PLS methods is incredibly rich. If you take a look at the
+dozens of references about Partial Least Squares, you will be shocked with a
+mind blowing puzzle. The major benefit of such abundance of material is the r
+ichness of concepts, principles, applications, extensions, and new proposals.
+The ugly side is that there’s no universal view, no unified notation, no unique
+terminology, and even worse, slightly different connotations of the term PLS.
+Which only makes it easy to get lost along the way. After all, this reflects the
+evolution of PLS methods, how they have spread out, how they have permeated into
+different subfields, and how they have come to occupy multiple places within the
+collective consciousness of Multivariate Data Analysis. Everywhere a PLS method
+has taken up residence, it dresses in different clothes, does its hair differently,
+and speaks a slighty different dialect.</p>
+<p>In summary, as soon as you take a first step into PLS territory, you can
+immediately get disoriented in the middle of the trees without being able to
+appreciate the forest in all of its magnitude. No wonder why many practitioners
+are confused about exactly what PLS is, what it does, how it works, and how they
+can benefit from it.</p>
+</div>
+</div>
+<div id="some-words-of-caution" class="section level2">
+<h2><span class="header-section-number">3.2</span> Some words of caution</h2>
+<p>I would be a fool to tell you that there is one single universal perception of
+Partial Least Squares. Depending on who you talk to, you can get different
+meanings for the term PLS. If you ask your favorite search engine about “PLS,”
+you might get answers like “please,” or “political science,” which is obviously
+not what we are talking about. If you search for the term “partial least squares,”
+I bet you will find most results related to what is known as <em>PLS Regression</em>—the
+most popular version of PLS methods. Not surprisingly, most people think of PLS
+as just another technique for solving regression-like problems. This is not a
+mere coincidence but the result of the intricated history behind PLS, splattered
+with random twists of fate. Now, while it is true that the regression version
+may be the most common presentation people know, it is by no means the only one.
+For other people, PLS is an approach for estimating what are known as Structural
+Equation Models with latent variables.</p>
+<div id="path-modelism-and-regressionism" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Path Modelism and Regressionism</h3>
+<p>Today we can distinguish two main branches of Partial Least Squares approaches:
+1) the <strong>Path Modeling</strong> branch, and 2) the <strong>Regression</strong> branch. The former
+introduced by Herman Wold, and the latter headed by Svante Wold. The recognition
+of these two large categories has to do with the way in which they have
+subsequently unfolded. By taking different directions, the branches have produced
+two major <em>movements</em> that for the most part, have grown apart, remained
+disconnected, and even unaware of one another in some areas of application.</p>
+</div>
+<div id="pls-noun-or-adjective" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> PLS: Noun or Adjective?</h3>
+<p>The study of Partial Least Squares (PLS) methods begins with potential
+confusion—the term “PLS” has become broader and looser over the years.
+One problematic area has to do with the way authors use the term PLS. Sometimes
+PLS is used as a noun, while others is used as an adjective. As a noun, “PLS”
+is not one method but a set of methods. Talking about Partial Least Squares as
+a single methodology is like talking about Athletism as a single discipline,
+or like talking about the Himalayas as a single mountain. Hence, we should
+always let users/readers know that PLS implies a big family of methods.</p>
+<p>As an adjective, “PLS” describes the <em>flavor</em> of a given method. Generally,
+authors have baptized PLS algorithms after the methodology they sprout from.
+In this sense, the acronym PLS is used as a label to indicate the estimation
+approach of a given technique. For instance, PLS as used in “PLS Regression”
+works as an adjective, describing the estimation procedure for a regression model.</p>
+</div>
+<div id="algorithmic-approaches" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Algorithmic approaches</h3>
+<p>Another problem is when we hear or read about “the PLS algorithm.” The truth
+is that PLS methods are a bit of an anomaly in that they are both <strong>methodologies</strong>
+(with specifications, assumptions, and motivational reasons) and <strong>algorithms</strong>
+(with computational and operational aspects). This means that all PLS methods
+have their associated algorithm. Often, many different PLS methods are presented
+by their authors in such a way that the unaware reader is mislead to believe
+that a particular method is <em>the</em> PLS method. This is probably one of the main
+sources of confusion around the PLS literature. There is not such thing as
+<em>the PLS algorithm</em>, instead there are the PLS algorithms (in plural). For
+example, there is the PLS regression algorithm, the PLS path modeling algorithm,
+the PLS algorithm for Principal Components Analysis (a.k.a. NIPALS-PCA), or the
+PLS algorithm for Canonical Correlation Analysis (a.k.a. NIPALS-CCA), to mention
+but a few.</p>
+<p>If there is anything in common among Partial Least Squares methods is that they
+all have an associated algorithm with a fairly uniform format. PLS methods
+proceed in a less intuitive way compared to classical statistical procedures
+where an optimization criteria is solved algebraically. PLS approaches are not
+formulated in terms of a global criterion to be optmized. That is, PLS procedures
+are stated without any maximization or minimization criterion. Just the data
+decompositions and the system of regression equations are declared. Usually,
+we express a model (in PLS mindset) in such a way that we identify the components,
+and the equations between components. Instead of looking to derive an analytical
+solution, we walk through the solution via a series of repetitive sequential
+steps until reaching a good stable approximation. In other words, Partial Least
+Squares are pure algorithmic approaches that consists of a series of steps
+approximating a stable solution. In many cases, the PLS algorithms coincide
+with standard algebraic solutions—usually involving an eigendecomposition.</p>
+</div>
+<div id="fragmentation" class="section level3">
+<h3><span class="header-section-number">3.2.4</span> Fragmentation</h3>
+<p>Another problematic issue is that PLS methods are usually presented in a
+fragmented way. Most book chapters, papers, courses, workshops, and even
+conferences deal with only a subset of the dozens of methods, rarely covering
+a panoramic view. The main reasons for this compartmentalization has to do with
+historical issues, and the way PLS methods have evolved. Furthermore,
+accessability to the original references is largely difficult to most
+practitioners and users.</p>
+<p>The initial versions of PLS methods are documented in the 1960s works of Herman
+Wold, and there is no controversy about the PLS origins. Throughout the entire
+body of references and publications over several decades about PLS methods in
+general, all authors acknowledge the roots of the so-called NIPALS procedures in
+<span class="citation">H. Wold (<a href="#ref-Wold1966a" role="doc-biblioref">1966</a><a href="#ref-Wold1966a" role="doc-biblioref">b</a>)</span>, <span class="citation">H. Wold (<a href="#ref-Wold1966b" role="doc-biblioref">1966</a><a href="#ref-Wold1966b" role="doc-biblioref">a</a>)</span>, and <span class="citation">Lyttkens and Wold (<a href="#ref-WoldLyttkens1969" role="doc-biblioref">1969</a>)</span>. However, the place PLS methods
+occupy in contemporary multivariate statitics is a bit more complicated.
+PLS’s rising global popularity has led to disagreements about what constitutes
+an authentic PLS algorithm. The same name is used to refer to different things,
+while at the same time different terms are used for naming the same concept.
+Even within PLS community, ideas about what PLS is varies and has caused debate
+and tension every once in a while.</p>
+</div>
+<div id="the-two-wolds" class="section level3">
+<h3><span class="header-section-number">3.2.5</span> The two Wolds</h3>
+<p>Another source of confusion is the fact that two of the main leading authors
+behind PLS methods share the same last name “Wold”. The unaware reader may think
+that Wold is one single author without realizing that it can be either Herman
+(the father) or Svante (the son). In fact, the way and style in which the two
+Wolds presented their works have left a profound footprint in their ulterior
+developments. The framework of Herman, emerged from econometric’s systems of
+equations with latent variables, seems to have insurmountable disparities with
+Svante’s Regression Models stemmed from chemometrics. Both branches, with its
+various subdivisions, show contrasting differences at various levels, notably
+at the area of application, but also at a philosophical, ideological, conceptual,
+language, technical, spread and diffusion levels. Albeit their common mathematical
+and operational elements, and even their shared genes, the contrasting physical
+appearance between both frameworks puts an illusory divide between them that
+can easily mislead all inexperienced users, and even some well versed PLS
+<em>connoiseurs</em>.</p>
+</div>
+<div id="pedagogy-of-pls" class="section level3">
+<h3><span class="header-section-number">3.2.6</span> Pedagogy of PLS</h3>
+<p>Another hurdle for studying PLS methods has to do with the fact that they have
+evolved on top of existing techniques, which produces some pedagogical side-effects.
+Why? Because if you want to learn about a specific PLS technique, usually you
+must go through a double learning process. Consider for instance Principal
+Components Analysis (PCA), and its corresponding PLS version NIPALS-PCA. If you
+want to study NIPALS-PCA, you would begin studying PCA, and then switch to the
+NIPALS-PCA algorithm. In general, you must first learn about the general
+problem—and its standard solution—, be it regression, discrimination,
+principal components, or canonical correlation, just to mention some of them.
+And then you have to learn how to look at a given technique from the PLS angle.
+Consequently, this adds an extra layer of concepts, terms, and jargon that you
+have to deal with: one from the standard approach, and the other one from the
+PLS approach. No wonder why PLS methods, despite their practical usefulness and
+methodological attractiveness, have no reserved seats in undergraduate syllabus,
+and have limited attention in postgraduate programs.</p>
+</div>
+<div id="current-status" class="section level3">
+<h3><span class="header-section-number">3.2.7</span> Current Status</h3>
+<p>Today Partial Least Squares methods are well recognized in pretty much all
+fields of knowledge where they have been applied. There’s a tradition of biannual
+symposiums exclusively dedicated to discuss advancements and state-of-the-art
+around PLS and related methods. We also have special publications such as the
+<em>Handbook of Partial Least Squares</em> <span class="citation">(Esposito-Vinzi et al. <a href="#ref-Espositoetal2010" role="doc-biblioref">2010</a>)</span>,
+<em>New Perspectives in Partial Least Squares and Related Methods</em> <span class="citation">(Abdi et al. <a href="#ref-Abdietal2013" role="doc-biblioref">2013</a>)</span>.
+On the computational side a wide range of software programs are available both
+commercially and free. The largest group of tools is the dozen of R packages freely
+available in <a href="http://cran.r-project.org/">CRAN</a>; there are also XLSTAT plug-ins
+(by Addinsoft) for MS Excel; SmartPLS <span class="citation">(Ringle, Wende, and Will <a href="#ref-Ringleetal2005" role="doc-biblioref">2005</a>)</span>, ADANCO, SIMCA
+(by Umetrics), procedures for SAS, and libraries for Matlab, and Python. Also
+important is the amazing amount of online learning resources with tutorials,
+slides, videos, seminars, webinars, workshops, and specialized courses. All
+this ecosystem reflects the success of PLS methods in industry, academia,
+research, and governmental spheres.</p>
+<p>But it hasn’t always been like this.</p>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-Abdietal2013">
+<p>Abdi, H., W. Chin, V. Esposito Vinzi, G. Russolillo, and L. Trinchera, eds. 2013. <em>New Perspectives in Partial Least Squares and Related Methods</em>. Springer.</p>
+</div>
+<div id="ref-Espositoetal2010">
+<p>Esposito-Vinzi, Vincenzo, Wynne Chin, Jorg Henseler, and Huiwen Wang, eds. 2010. <em>Handbook of Partial Least Squares</em>. Springer.</p>
+</div>
+<div id="ref-WoldLyttkens1969">
+<p>Lyttkens, Eynar, and Herman Wold. 1969. “Nonlinear Iterative Partial Least Squares (Nipals) Estimation Procedures.” <em>Bull. Inst. Internat. Statist.</em> 53: 29–51.</p>
+</div>
+<div id="ref-Ringleetal2005">
+<p>Ringle, C., S. Wende, and A. Will. 2005. <em>SmartPLS</em>. SmartPLS.</p>
+</div>
+<div id="ref-Wold1966b">
+<p>Wold, Herman. 1966a. “Estimation of Principal Components and Related Models by Iterative Least Squares.” In <em>Multivariate Analysis. Proceedings of an International Symposium Held in Dayton, Ohio, June 14-19, 1965</em>, edited by P. R. Krishnaiah, 391–420. Academic Press.</p>
+</div>
+<div id="ref-Wold1966a">
+<p>Wold, Herman. 1966b. “Nonlinear Estimation by Iterative Least Square Procedures.” In <em>Research Papers in Statistics. Festschrift for J. Neyman</em>, edited by F. N. David, 411–44. Wiley.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="kidding.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="timeline.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

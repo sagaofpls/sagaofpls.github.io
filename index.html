@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>The Saga of PLS</title>
+  <meta name="description" content="This book narrates the story behind the creation and evolution of Partial Least Squares methods." />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="The Saga of PLS" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This book narrates the story behind the creation and evolution of Partial Least Squares methods." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Saga of PLS" />
+  
+  <meta name="twitter:description" content="This book narrates the story behind the creation and evolution of Partial Least Squares methods." />
+  
+
+<meta name="author" content="Gaston Sanchez" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="intro.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><b>The Saga of PLS</b><br><small>Gaston Sanchez</small></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#full-edition"><i class="fa fa-check"></i>Full Edition</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#preview-edition"><i class="fa fa-check"></i>Preview Edition</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#praises"><i class="fa fa-check"></i>Praises</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#preface"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#the-proof-of-the-pudding"><i class="fa fa-check"></i><b>1.1</b> The proof of the pudding</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#outline"><i class="fa fa-check"></i><b>1.2</b> Outline</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#acknowledgements"><i class="fa fa-check"></i>Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="kidding.html"><a href="kidding.html"><i class="fa fa-check"></i><b>2</b> You’ve got to be kidding me</a></li>
+<li class="chapter" data-level="3" data-path="aboutpls.html"><a href="aboutpls.html"><i class="fa fa-check"></i><b>3</b> A little bit about Partial Least Squares</a><ul>
+<li class="chapter" data-level="3.1" data-path="aboutpls.html"><a href="aboutpls.html#pls"><i class="fa fa-check"></i><b>3.1</b> PLS</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="aboutpls.html"><a href="aboutpls.html#a-broad-definition-of-pls"><i class="fa fa-check"></i><b>3.1.1</b> A broad definition of PLS</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="aboutpls.html"><a href="aboutpls.html#some-words-of-caution"><i class="fa fa-check"></i><b>3.2</b> Some words of caution</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="aboutpls.html"><a href="aboutpls.html#path-modelism-and-regressionism"><i class="fa fa-check"></i><b>3.2.1</b> Path Modelism and Regressionism</a></li>
+<li class="chapter" data-level="3.2.2" data-path="aboutpls.html"><a href="aboutpls.html#pls-noun-or-adjective"><i class="fa fa-check"></i><b>3.2.2</b> PLS: Noun or Adjective?</a></li>
+<li class="chapter" data-level="3.2.3" data-path="aboutpls.html"><a href="aboutpls.html#algorithmic-approaches"><i class="fa fa-check"></i><b>3.2.3</b> Algorithmic approaches</a></li>
+<li class="chapter" data-level="3.2.4" data-path="aboutpls.html"><a href="aboutpls.html#fragmentation"><i class="fa fa-check"></i><b>3.2.4</b> Fragmentation</a></li>
+<li class="chapter" data-level="3.2.5" data-path="aboutpls.html"><a href="aboutpls.html#the-two-wolds"><i class="fa fa-check"></i><b>3.2.5</b> The two Wolds</a></li>
+<li class="chapter" data-level="3.2.6" data-path="aboutpls.html"><a href="aboutpls.html#pedagogy-of-pls"><i class="fa fa-check"></i><b>3.2.6</b> Pedagogy of PLS</a></li>
+<li class="chapter" data-level="3.2.7" data-path="aboutpls.html"><a href="aboutpls.html#current-status"><i class="fa fa-check"></i><b>3.2.7</b> Current Status</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="timeline.html"><a href="timeline.html"><i class="fa fa-check"></i><b>4</b> Commented Timeline</a><ul>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#mid-1960s-nipals-procedures"><i class="fa fa-check"></i>Mid-1960s: NIPALS Procedures</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#early-1970s-nipals-modeling"><i class="fa fa-check"></i>Early 1970s: NIPALS Modeling</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#mid-1970s-nipals-soft-modeling"><i class="fa fa-check"></i>Mid 1970s: NIPALS Soft Modeling</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#late-1970s-pls-soft-modeling"><i class="fa fa-check"></i>Late 1970s: PLS Soft Modeling</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#early-1980s-the-basic-design-and-extensions"><i class="fa fa-check"></i>Early 1980s: The Basic Design and Extensions</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#late-1980s"><i class="fa fa-check"></i>Late 1980s</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#s"><i class="fa fa-check"></i>1990s</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#s-1"><i class="fa fa-check"></i>2000s</a></li>
+<li class="chapter" data-level="" data-path="timeline.html"><a href="timeline.html#in-summary"><i class="fa fa-check"></i>In summary</a></li>
+<li class="chapter" data-level="4.1" data-path="timeline.html"><a href="timeline.html#pls-regression-origins"><i class="fa fa-check"></i><b>4.1</b> PLS Regression Origins</a></li>
+</ul></li>
+<li class="part"><span><b>I The Econometrician</b></span></li>
+<li class="part"><span><b>II The Philosopher of Science</b></span></li>
+<li class="part"><span><b>III The Soft Modeler</b></span></li>
+<li class="part"><span><b>IV The Chemometrician</b></span></li>
+<li class="part"><span><b>V The Renaissance of Herman’s PLS</b></span></li>
+<li class="part"><span><b>VI Critical Review</b></span></li>
+<li class="part"><span><b>VII Conclusions and Final Remarks</b></span></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://leanpub.com/sagaofpls" target="blank">leanpub.com/sagaofpls</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Saga of PLS</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">The Saga of PLS</h1>
+<p class="author"><em>Gaston Sanchez</em></p>
+</div>
+<div id="welcome" class="section level1 unnumbered">
+<h1>Welcome</h1>
+<div id="full-edition" class="section level2 unnumbered">
+<h2>Full Edition</h2>
+<p>The full edition (in PDF and EPUB formats) can be purchased at leanpub:</p>
+<p><a href="https://leanpub.com/sagaofpls" class="uri">https://leanpub.com/sagaofpls</a></p>
+</div>
+<div id="preview-edition" class="section level2 unnumbered">
+<h2>Preview Edition</h2>
+<p>This is now a preview of the first four chapters:</p>
+<ol style="list-style-type: decimal">
+<li><a href="intro.html#intro">Introduction</a></li>
+<li><a href="kidding.html#kidding">You’ve got to be kidding me</a></li>
+<li><a href="aboutpls.html#aboutpls">A little bit about Partial Least Squares</a></li>
+<li><a href="timeline.html#timeline">Commented Timeline</a></li>
+<li>The Econometrician</li>
+<li>The Philosopher of Science</li>
+<li>The Soft Modeler</li>
+<li>The Chemometrician</li>
+<li>The Renaissance of Herman’s PLS</li>
+<li>Critical Review</li>
+<li>Conclusions and Final Remarks</li>
+<li><a href="references.html#references">References (preview chapters)</a></li>
+</ol>
+<div id="praises" class="section level3 unnumbered">
+<h3>Praises</h3>
+<blockquote>
+<p>“Wonderful, beautiful text on PLS. I was, of course, pleased and flattered
+over the kind treatment of my father Herman and myself, and most impressed of
+the great coverage of all essential aspects of PLS, both path-PLS and
+PLS-regression.”</p>
+<p><em>Svante Wold</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“Greatly enjoyed The Saga of PLS.”</p>
+<p><em>Nouna Kettaneh</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“It’s a wonderful work.”</p>
+<p><em>Michel Tenenhaus</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“A fantastic reading… And Gaston is right, I don’t remember neither the
+question he asked me, nor the answer I gave him when he asked me about the
+PLS regressions within the PLS-PM algorithm.”</p>
+<p><em>Tomàs Aluja</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“Gaston has done a great job by writing this extremly interesting and
+useful book.”</p>
+<p><em>Aida Eslami</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“This is a magnificent work, clearly protraying the history and evolution of
+PLS.”</p>
+<p><em>José Luis Roldán</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“I just finished my first reading of The Saga of PLS, and I love it.”</p>
+<p><em>Diogenes de Souza Bido</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“This book brings fond memories of Herman Wold and J-B. Lohmoller who
+often visited the campus of Case Western Reserve University, Cleveland,
+while giving talks/seminars and enjoying musical performances by the
+Cleveland Orchestra.”</p>
+<p><em>Nguyen Quan</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“I read and reread The Saga of PLS. I’ve shared it with many members of the
+PLS community and it was incredibly well received by faculty around the world.”</p>
+<p><em>Soumya Ray</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“I thoroughly enjoyed reading The Saga of PLS… a very nice introduction
+to the rich history of PLS.”</p>
+<p><em>Derek Beaton</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“An admirable work, providing us with outstanding material about PLS, so
+hard to find elsewhere.”</p>
+<p><em>Pablo Cáceres Serrano</em></p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>“The Saga of PLS was a very good read.”</p>
+<p><em>Age Johnsen</em></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
