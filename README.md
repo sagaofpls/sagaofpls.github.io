@@ -18,4 +18,5 @@ Full Edition can be purchased at leanpub:
 
 <br>
 
-Author: [Gaston Sanchez](https://www.gastonsanchez.com)
+- [Gaston Sanchez](https://www.gastonsanchez.com)
+- © 2015-2020 G. Sanchez. All Rights Reserved.
