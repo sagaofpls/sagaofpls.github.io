@@ -12,5 +12,10 @@ This book can be used as a companion reading for any course, workshop, or
 seminar about PLS methods, expecting to be enjoyed by anyone interested on this 
 topic.
 
+Full Edition can be purchased at leanpub:
+
+<a href="https://leanpub.com/sagaofpls" target="blank">leanpub.com/sagaofpls</a>
+
+<br>
 
 Author: [Gaston Sanchez](https://www.gastonsanchez.com)
